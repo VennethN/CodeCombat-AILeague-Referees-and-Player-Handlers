@@ -533,7 +533,7 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
                         this.solarMapThangs[i][j] = solarPanel;
                         solarPanel.name = shouldBeName;
                         
-                        let panelLabel = this.instabuild(shouldBeName + '-label', j * this.step + this.step / 2, i * this.step + this.step / 2 -2);
+                        let panelLabel = this.instabuild(shouldBeName + '-label', j * this.step + this.step / 2, i * this.step + this.step / 2);
                         solarPanel.label = panelLabel;
                         solarPanel.level = shouldBeLevel;
                         solarPanel.label.sayWithDuration(900, shouldBeLevel)
@@ -769,7 +769,7 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
             
             crab.setExists(false);
         }
-        if (hPosX <= 1 || hPosX >= ref.maxX - 1 || hPosY <= 1 || hPosY >= ref.maxY - 1) {
+        if (hPosX <= 2 || hPosX >= ref.maxX - 1 || hPosY <= 2 || hPosY >= ref.maxY - 2) {
            crabDeathDamage()
            return;
         }
