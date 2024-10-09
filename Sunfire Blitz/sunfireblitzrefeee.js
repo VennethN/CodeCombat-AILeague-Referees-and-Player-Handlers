@@ -24,6 +24,9 @@ const DIRECTION_ROTATION = {
     [UP]: Math.PI * 0.5
 };
 
+const RED_START_X = 11
+const RED_START_Y = 33
+
 
 const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
 
@@ -62,7 +65,7 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
             });
             h.say = () => {};
             h.sayWithDuration = () => {};
-            h.sayWithoutBLocking = () => {};
+            h.sayWithoutBlocking = () => {};
         });
         this.hero.opponent = this.hero1;
         this.hero1.opponent = this.hero;
@@ -140,7 +143,7 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
     createPortals()
     {
         let poss = null;
-        for (let i = 0; i < 900; i++) {
+        for (let i = 0; i < 5000; i++) {
             poss = this.findPortalPos();
             if (poss) break;
         }
@@ -179,15 +182,38 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
     findPortalPos()
     {
         let pos = this.pickPointFromRegion(this.rectangles.portal);
-        pos = new Vector(Math.round(pos.x), Math.round(pos.y));
-        let posM = new Vector(this.maxX - pos.x, this.maxY - pos.y);
-        for (let h of this.heroes) {
-            for (let p of [pos, posM]) {
-                if (h.distanceTo(p) < 20) {
-                    return false;
+        let xPos = 2* Math.floor(pos.x/2)  + 1
+        let yPos = 2* Math.floor(pos.y/2)  + 1
+        pos = new Vector(Math.round(xPos), Math.round(yPos));
+        function isReachable(xStart, yStart, xTarget, yTarget, movementMagnitude) {
+            const deltaX = Math.abs(xTarget - xStart);
+            const deltaY = Math.abs(yTarget - yStart);
+            const manhattanDistance = deltaX + deltaY;
+        
+            // Check if Manhattan distance is a multiple of the movement magnitude
+            if (manhattanDistance % movementMagnitude === 0) {
+                // Check if both deltaX and deltaY are multiples of the movement magnitude
+                if (deltaX % movementMagnitude === 0 && deltaY % movementMagnitude === 0) {
+                    return true;
                 }
             }
+        
+            return false;
         }
+        let posM = new Vector(this.maxX - pos.x, this.maxY - pos.y);
+        if (!isReachable(RED_START_X, RED_START_Y, pos.x, pos.y, this.step * 2)) {
+            return false;
+        }
+        if (!isReachable(RED_START_X, RED_START_Y, posM.x, posM.y, this.step * 2)) {
+            return false;
+        }
+        // for (let h of this.heroes) {
+        //     for (let p of [pos, posM]) {
+        //         if (h.distanceTo(p) < 20) {
+        //             return false;
+        //         }
+        //     }
+        // }
         return [pos, posM];
     },
 
@@ -221,7 +247,7 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
         this.hookHasMoved(crab);
     },
 
-    heroOnHasMoved(h, prevPos, newPos) {
+    heroOnHasMovedOld(h, prevPos, newPos) {
         let hPosX = 2* Math.floor(h.pos.x/2) + 1 
         let hPosY = 2* Math.floor(h.pos.y/2) + 1
         if (hPosX <= 1 || hPosX >= this.maxX - 1 || hPosY <= 1 || hPosY >= this.maxY - 1) {
@@ -231,6 +257,26 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
             h.die();
         }
        this.hookHasMoved(h);    
+    },
+    
+    heroOnHasMoved(h, prevPos, newPos) {
+        let hPosX, hPosY
+        if (h.color === RED) {
+            hPosX = 2* Math.floor(h.pos.x/2) + 1 
+            hPosY = 2* Math.floor(h.pos.y/2) + 1
+        } else {
+            hPosX = 2* Math.ceil(h.pos.x/2) - 1 
+            hPosY = 2* Math.ceil(h.pos.y/2) - 1
+        }
+        let minY = h.color === RED ? 1 : 1;
+        let maxY = h.color === RED ? this.maxY - 1 : this.maxY - 1;
+        if (hPosX <= 1 || hPosX >= this.maxX - 1 || hPosY <= minY || hPosY >= maxY) {
+            h.brake(); 
+            h.setTargetPos(null);
+            h.setAction('idle');
+            h.die();
+        }
+        this.hookHasMoved(h);    
     },
 
     hookHasMoved(unit){
@@ -282,12 +328,20 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
         parseFloat(shockThrowInfo.range.toFixed(2)),
         '#FF0000', 0, Math.PI * 2];
         this.addCurrentEvent(`aoe-${JSON.stringify(args)}`);
-        for (let h of this.heroes) {
-            if (h.color == who.color) {
+        let allUnits = []
+        allUnits.push(...this.heroes)
+        allUnits.push(...this.crabs)
+        for (let u of allUnits) {
+            if (u.color == who.color) {
                 continue;
             }
-            if(h.distanceTo(shockBall) < shockThrowInfo.range) {
-                this.stunTurtle(h, shockThrowInfo.damage, shockThrowInfo.slowDuration, shockThrowInfo.slowFactor);
+            if(u.distanceTo(shockBall) < shockThrowInfo.range) {
+                if(u.type == "base")
+                {
+                    this.stunTurtle(u, shockThrowInfo.damage, shockThrowInfo.slowDuration, shockThrowInfo.slowFactor);
+                }else{
+                    u.crabDeathDamage()
+                }
             }
         }
     },
@@ -331,8 +385,10 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
     
     reconcileClosedShape()
     {
-
-        for(let h of this.heroes)
+        let allUnits = []
+        allUnits.push(...this.heroes)
+        allUnits.push(...this.crabs)
+        for(let h of allUnits)
         {
             if(!h.currentCell){
                 continue
@@ -553,13 +609,13 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
         for (let i = 0; i < this.maxRows; i++) {
             for (let j = 0; j < this.maxCols; j++) {
                 if(this.solarMap[i][j] > 0){
-                    let residue = (this.solarMap[i][j] -1)
-                    redScore += residue * this.solarLevelFactor
-                    redScore++;
+                    let panelLevel = Math.abs(this.solarMap[i][j])
+                    let bonusScore = ( 1 + Math.log(panelLevel) / Math.log(this.solarLogConst));
+                    redScore += bonusScore
                 }else if(this.solarMap[i][j] < 0){
-                    let residue = Math.abs(this.solarMap[i][j] +1)
-                    blueScore += residue * this.solarLevelFactor
-                    blueScore++;
+                    let panelLevel = Math.abs(this.solarMap[i][j])
+                    let bonusScore = ( 1 + Math.log(panelLevel) / Math.log(this.solarLogConst));
+                    blueScore+=bonusScore
                 }
             }
         }
@@ -580,47 +636,6 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
             {
                 code = 'rpanel'
             }
-        return code;
-    },
-
-    detectLavaType(r, c) {
-        if (this.solarMap[r][c] == 0 || r == 0 || r == this.maxRows - 1 || c == 0 || c == this.maxCols - 1) {
-            return null;
-        }
-        const sign = Math.sign(this.solarMap[r][c]);
-        let code = "lava";
-        if (sign == -1) {
-            code = 'blava';
-        }
-        if (r == this.maxRows - 2 || sign == Math.sign(this.solarMap[r + 1][c])) {
-            code += '0';
-        }
-        else {
-            code += '1';
-        }
-
-        if (c == this.maxCols - 2 || sign == Math.sign(this.solarMap[r][c + 1])) {
-            code += '0';
-        }
-        else {
-            code += '1';
-        }
-        
-        if (r == 1 || sign == Math.sign(this.solarMap[r - 1][c])) {
-            code += '0';
-        }
-        else {
-            code += '1';
-        }
-
-        
-        if (c == 1 || sign == Math.sign(this.solarMap[r][c - 1])) {
-            code += '0';
-        }
-        else {
-            code += '1';
-        }
-        
         return code;
     },
 
@@ -660,6 +675,7 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
             }
         }
     },
+    
     waterBulletUpdate(waterBullet)
     {
         
@@ -685,6 +701,17 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
                             revertsProportionally: true, factor: waterGunInfo.slowFactor, targetProperty: 'maxSpeed'});                            
                     }
                 waterBullet.setExists(false);
+                return;
+            }
+        }
+        for(let c of this.crabs)
+        {
+            if(c.Color == waterBullet.color){continue}
+            if(c.distanceTo(waterBullet) < waterGunInfo.waterHitRadius)
+            {
+                c.crabDeathDamage()
+                waterBullet.setExists(false);
+                return;
             }
         }
     },
@@ -709,7 +736,7 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
                 const waterBullet = this.instabuild(`water-bullet`, waterPos.x, waterPos.y);
                 waterBullet.createdTime = this.world.age;
                 waterBullet.color = h.color;
-                waterBullet.maxSpeed = waterGunInfo.waterSpeed * Math.max(h.maxSpeed/this.heroBaseSpeed,0.8);
+                waterBullet.maxSpeed = waterGunInfo.waterSpeed * Math.max(h.maxSpeed/this.heroBaseSpeed,.8);
                 waterBullet.moveXY(waterPos.x + 99 * diff.x, waterPos.y + 99 * diff.y);
                 waterBullet.appendMethod('update', this.waterBulletUpdate.bind(this, waterBullet, this));
                 waterBullet.creator = h;
@@ -731,6 +758,33 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
                 crab.team = h.team;
                 crab.hookOnHasMoved = this.crabOnHasMoved.bind(this, crab);
                 crab.appendMethod('update', this.crabUpdate.bind(this, crab, this));
+                Object.defineProperty(crab, 'speed', {
+                    get: function() { return this.maxSpeed; }
+                });
+
+                let crabDeathDamage = function()
+                {
+                    crab.brake(); 
+                    crab.setTargetPos(null);
+                    crab.setAction('idle');
+                    crab.die();
+                    const args = [
+                    parseFloat(crab.pos.x.toFixed(2)),
+                    parseFloat(crab.pos.y.toFixed(2)),
+                    parseFloat(crabInfo.deathRange.toFixed(2)),
+                    '#FF0000', 0, Math.PI * 2];
+                    crab.ref.addCurrentEvent(`aoe-${JSON.stringify(args)}`);
+                    for (let h of crab.ref.heroes) {
+                        if(h.distanceTo(crab) < crabInfo.deathRange && h.color != crab.color)
+                        {
+                            h.takeDamage(crabInfo.deathDamage);
+                        }
+                    }
+                    
+                    crab.setExists(false);
+                }
+                crab.crabDeathDamage = crabDeathDamage
+
                 crab.moveXY(h.pos.x + DIRECTION_DIFFS[dir].x * 99, h.pos.y + DIRECTION_DIFFS[dir].y * 99);
                 crab.ref = this
                 crab.param = crabInfo
@@ -743,40 +797,26 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
             
                 crab.setExists(false);
                 return;
-            }
-        let hPosX = 2* Math.floor(crab.pos.x/2) + 1 
-        let hPosY = 2* Math.floor(crab.pos.y/2) + 1
+        }
         let ref = crab.ref
         let crabInfo = crab.param
-        let crabDeathDamage = function()
-        {
-            crab.brake(); 
-            crab.setTargetPos(null);
-            crab.setAction('idle');
-            crab.die();
-            const args = [
-            parseFloat(crab.pos.x.toFixed(2)),
-            parseFloat(crab.pos.y.toFixed(2)),
-            parseFloat(crabInfo.deathRange.toFixed(2)),
-            '#FF0000', 0, Math.PI * 2];
-            ref.addCurrentEvent(`aoe-${JSON.stringify(args)}`);
-            for (let h of ref.heroes) {
-                if(h.distanceTo(crab) < crabInfo.deathRange && h.color != crab.color)
-                {
-                    h.takeDamage(crabInfo.deathDamage);
-                }
-            }
-            
-            crab.setExists(false);
-        }
-        if (hPosX <= 2 || hPosX >= ref.maxX - 1 || hPosY <= 2 || hPosY >= ref.maxY - 2) {
-           crabDeathDamage()
+        let cPosX = 2* Math.floor(crab.pos.x/2) + 1 
+        let cPosY = 2* Math.floor(crab.pos.y/2) + 1
+        if (cPosX <= 2 || cPosX >= ref.maxX - 1 || cPosY <= 2 || cPosY >= ref.maxY - 2) {
+           crab.crabDeathDamage()
            return;
         }
-        for (let h of ref.heroes) {
-            
-            if (h.color != crab.color && h.distanceTo(crab) < crabInfo.explodeRange) {
-                crabDeathDamage()
+
+        let allUnits = []
+        allUnits.push(...ref.heroes)
+        allUnits.push(...ref.crabs)
+        for (let u of allUnits) {
+            if (u == crab)
+            {
+                continue;
+            }
+            if (u.color != crab.color && u.distanceTo(crab) < crabInfo.explodeRange) {
+                crab.crabDeathDamage()
                 return;
             }
         }
@@ -785,9 +825,12 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
     reconcileShockTrap()
     {
         let shockTrapInfo = this.special.shockTrap;
+        let allUnits = []
+        allUnits.push(...this.heroes)
+        allUnits.push(...this.crabs)
         for (let t of this.shockTraps) {
-            for (let h of this.heroes) {
-                if (h.color != t.color && h.distanceTo(t) < shockTrapInfo.activeRange) {
+            for (let u of allUnits) {
+                if (u.color != t.color && u.distanceTo(t) < shockTrapInfo.activeRange) {
                     let shockwaveEffect = this.instabuild('shockwave-effect', t.pos.x, t.pos.y);
                     shockwaveEffect.lifespan = 0.5;
                     const args = [
@@ -796,7 +839,12 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
                     parseFloat(shockTrapInfo.activeRange.toFixed(2)),
                     '#FF0000', 0, Math.PI * 2];
                     this.addCurrentEvent(`aoe-${JSON.stringify(args)}`);
-                    this.stunTurtle(h, shockTrapInfo.damage, shockTrapInfo.slowDuration, shockTrapInfo.slowFactor);
+                    if(u.type == 'base')
+                    {
+                        this.stunTurtle(u, shockTrapInfo.damage, shockTrapInfo.slowDuration, shockTrapInfo.slowFactor);
+                    }else{
+                        u.crabDeathDamage()
+                    }
                     t.setExists(false);
                 }
             }

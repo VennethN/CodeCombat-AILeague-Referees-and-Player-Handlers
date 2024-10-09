@@ -222,6 +222,9 @@ const THROW = 'throw';
         if (!this.isReady('throw')) {
             return false;
         }
+        if (x == null || y == null || !_.isNumber(x) || !_.isNumber(y)) {
+            throw new Error("You should provide x and y coordinates to throw as numbers", "throw", "x, y", "number, number", x, y);
+        }
         this.abilityCooldowns.throw = this.world.age + this.ref.special.throw.specificCooldown;
         let throwPos = new Vector(x, y);
         if (this.color == BLUE) {

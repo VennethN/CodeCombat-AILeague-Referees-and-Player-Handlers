@@ -178,7 +178,6 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
         let dxy;
         let hPosX = 2* Math.floor(h.pos.x/2) + 1 
         let hPosY = 2* Math.floor(h.pos.y/2) + 1
-        print(hPosX,hPosY)
         if (hPosX <= 1 || hPosX >= this.maxX - 1 || hPosY <= 1 || hPosY >= this.maxY - 1) {
             h.brake();
             h.setTargetPos(null);
@@ -268,6 +267,17 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
             // }
             h.prevCell = {row, col};
             h.wasWrapped = false;
+        }
+    },
+
+    explodeBlob(blob, who) {
+        const row = Math.floor(blob.pos.y / this.step);
+        const col = Math.floor(blob.pos.x / this.step);
+        for (let r = row - this.blobExplosionRange; r <= row + this.blobExplosionRange; r++) {
+            for (let c = col - this.blobExplosionRange; c <= col + this.blobExplosionRange; c++) {
+                if (r <= 0 || r >= this.maxRows - 1 || c <= 0 || c >= this.maxCols - 1) return;
+                this.createSolarCell(r, c, who.color);
+            }
         }
     },
 
@@ -371,6 +381,34 @@ const ITEM_TYPES = [HEAL_BATTERY,SPEED_BATTERY,SOLAR_BATTERY];
         }
     
         return isSurrounded;
+    },
+
+    itemOnCollectOld(item, hero) {
+        if (!this.winner) {
+            hero.score += this.itemScore;
+        }
+        // hero.keepTrackedProperty('score');
+        if (item.type == GREEN_ITEM) {
+            hero.health = Math.min(hero.health + this.itemHealth, hero.maxHealth);
+        }
+        if (item.type == BLUE_ITEM) {
+            for (let k of Object.keys(hero.abilityCooldowns)) {
+                hero.abilityCooldowns[k] = Math.max(hero.abilityCooldowns[k] - this.itemReducingCooldown, 0);
+            }
+        }
+        if (item.type == RED_ITEM) {
+            let hasteEffects = hero.effects.filter(e => e.name == 'haste');
+            if (hasteEffects && hasteEffects.length) {
+                hasteEffects.forEach(e => e.timeSinceStart = 0);
+            }
+            else {
+                hero.addEffect({name: 'haste', duration: this.itemSpeedRatioDuration,
+                    revertsProportionally: true, factor: this.itemSpeedRatio, targetProperty: 'maxSpeed'});                            
+            }
+        }
+        hero.rangeThang.effects = hero.rangeThang.effects.filter(e => e.name != 'visible');
+        hero.rangeThang.addEffect({name: 'visible', duration: 0.2, reverts: true, setTo: 0.5, targetProperty: 'alpha'});
+        hero.rangeThang.updateEffects();
     },
 
     itemOnCollect(item, hero) {

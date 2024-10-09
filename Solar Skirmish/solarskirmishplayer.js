@@ -31,6 +31,8 @@ const DIRECTION_ROTATION = {
 const SHOCK_TRAP = 'shockTrap';
 const DASH = 'dash';
 const WATER_GUN = 'waterGun';
+const SHOCK_THROW = "shockThrow";
+const ROBOT_CRAB = "robotCrab";
 
 (class SolarSkirmishPlayer extends Component {
     constructor(config) {
@@ -52,6 +54,8 @@ const WATER_GUN = 'waterGun';
         thang.isReady = this._isReady.bind(thang);
         thang.turn = this._turn.bind(thang);
         thang.findShadows = this._findShadows.bind(thang);
+        thang.findCrabs = this._findCrabs.bind(thang);
+        thang.findPortals = this._findPortals.bind(thang);
         
         thang.ability = this._ability.bind(thang);
         // thang.jump = this._jump.bind(thang);
@@ -64,6 +68,8 @@ const WATER_GUN = 'waterGun';
             [SHOCK_TRAP]: 0,
             [DASH]: 0,
             [WATER_GUN]: 0,
+            [SHOCK_THROW]: 0,
+            [ROBOT_CRAB]: 0,
         };
         thang.isReady = this._isReady.bind(thang);
         thang.lastDirection = thang.color == RED ? RIGHT : LEFT;
@@ -182,20 +188,26 @@ const WATER_GUN = 'waterGun';
     }
 
     _ability(abilityName, ...args) {
-        if(!this.ref.special[abilityName]) {
+        let abilityInfo = this.ref.special[abilityName]
+        if(!abilityInfo) {
             throw new Error(`There is not an ability named ${abilityName}.`);
         }
         if (!this.isReady(abilityName)) { // this should handle the cooldowns
             return false;
         }
-        this.score *= (1 - this.ref.special[abilityName].solarCost);
-        this.abilityCooldowns[abilityName] = this.world.age + this.ref.special[abilityName].specificCooldown;
-        this[`ability_${abilityName}`](...args);
+        let used = this[`ability_${abilityName}`](...args);
+        if(!used)
+            {
+                return false;
+            }
+        this.score *= (1 - abilityInfo.solarCost);
+        this.abilityCooldowns[abilityName] = this.world.age + abilityInfo.specificCooldown;
     }
 
     ability_shockTrap()
     {
         this.shockTrapIntent = true
+        return true;
     }
 
     ability_dash()
@@ -212,6 +224,46 @@ const WATER_GUN = 'waterGun';
     {
         this.waterGunIntent = true
         this.waterGunIntentDirection = this.lastDirection
+        return true;
+    }
+
+    ability_shockThrow(x, y)
+    {
+        let shockThrowInfo = this.ref.special.shockThrow
+        if(!x || !y || typeof(x) != 'number' || typeof(y) != 'number'){
+            throw new ArgumentError("X and Y should be numbers", "ability_shockThrow", "x, y", "number", x, y);
+            return false;
+        }
+        let throwPos = new Vector(x, y);
+        if (this.color == BLUE) {
+            throwPos = new Vector(this.maxCoordinateX - x, this.maxCoordinateY - y);
+        }
+        print(throwPos)
+        this.targetPos = throwPos.copy();
+        const ball = this.ref.instabuild(`${this.color}-shock-ball`, throwPos.x, throwPos.y);
+        //const rock = this.ref.instabuild(this.rockAsset || 'rock', throwPos.x, throwPos.y);
+        ball.color = this.color;
+        ball.targetPos = throwPos;
+        const dist = this.distance(throwPos);
+        ball.flightTime = dist / shockThrowInfo.throwSpeed;
+        print(ball.flightTime)
+        ball.lifespan = ball.flightTime + this.world.dt * 12;
+        print(ball.targetPos)
+        // blob.maxSpeed = this.ref.blobSpeed || 10;
+        ball.launch(this);
+        this.targetPos = null;
+        ball.explode = () => {
+            ball.setExists(false);
+            this.ref.explodeShockBall(ball, this);
+        };
+        return true;
+        
+    }
+    ability_robotCrab(){
+        this.robotCrabIntent = true
+        this.robotCrabIntentDirection = this.lastDirection
+        this.robotCrabIntentPos = this.pos.copy()
+        return true;
     }
 
     _jump() {
@@ -266,6 +318,7 @@ const WATER_GUN = 'waterGun';
         if (this.color == BLUE) {
             throwPos = new Vector(this.maxCoordinateX - x, this.maxCoordinateY - y);
         }
+
         this.targetPos = throwPos.copy();
         const blob = this.ref.instabuild(`${this.color}-blob`, throwPos.x, throwPos.y);
         //const rock = this.ref.instabuild(this.rockAsset || 'rock', throwPos.x, throwPos.y);
@@ -327,6 +380,14 @@ const WATER_GUN = 'waterGun';
 
     _findShadows() {
         return this.ref.shadows.filter(shadow => shadow.exists);
+    }
+
+    _findCrabs() {
+        return this.ref.crabs.filter(crab => crab.exists);
+    }
+
+    _findPortals() {
+        return this.ref.portals.filter(portal => portal.exists);
     }
     
     hookOnEndMultiFrameMove() {

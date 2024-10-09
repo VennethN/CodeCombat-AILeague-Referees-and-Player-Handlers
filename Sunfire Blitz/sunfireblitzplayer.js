@@ -238,7 +238,6 @@ const ROBOT_CRAB = "robotCrab";
         if (this.color == BLUE) {
             throwPos = new Vector(this.maxCoordinateX - x, this.maxCoordinateY - y);
         }
-        print(throwPos)
         this.targetPos = throwPos.copy();
         const ball = this.ref.instabuild(`${this.color}-shock-ball`, throwPos.x, throwPos.y);
         //const rock = this.ref.instabuild(this.rockAsset || 'rock', throwPos.x, throwPos.y);
@@ -246,9 +245,7 @@ const ROBOT_CRAB = "robotCrab";
         ball.targetPos = throwPos;
         const dist = this.distance(throwPos);
         ball.flightTime = dist / shockThrowInfo.throwSpeed;
-        print(ball.flightTime)
         ball.lifespan = ball.flightTime + this.world.dt * 12;
-        print(ball.targetPos)
         // blob.maxSpeed = this.ref.blobSpeed || 10;
         ball.launch(this);
         this.targetPos = null;
