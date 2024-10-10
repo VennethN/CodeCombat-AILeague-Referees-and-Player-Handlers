@@ -134,7 +134,7 @@ while (true) {
         }
     }
     // hero.cast("hasteball", 10, 50);
-    if(hero.findMyCollectors().length < 2) {
+    if(hero.findMyCollectors().length < 3) {
         hero.spawnCollector();
     }
     spellHandlerChoice()

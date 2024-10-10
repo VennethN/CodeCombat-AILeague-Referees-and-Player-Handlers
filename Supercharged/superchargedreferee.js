@@ -190,10 +190,10 @@ const UNITS = {
     [ROBOT_TURRET]:{
         type: ROBOT_TURRET,
         maxHealth: 30,
-        attackDamage: 30,
+        attackDamage: 15,
         maxSpeed: 7,
         cost: 8,
-        attackCooldown: 2.5,
+        attackCooldown: 1,
         spawnTime: .5,
         attackRange: 15,
         canTargetCollectors: true,
@@ -203,7 +203,7 @@ const UNITS = {
     },
     [ROBOT_SPIDER]:{
         type: ROBOT_SPIDER,
-        maxHealth: 70,
+        maxHealth: 110,
         attackDamage: 35,
         maxSpeed: 10,
         cost: 7,
@@ -217,8 +217,8 @@ const UNITS = {
     },
     [ROBOT_GOLEM]:{
         type: ROBOT_GOLEM,
-        maxHealth: 230,
-        attackDamage: 30,
+        maxHealth: 400,
+        attackDamage: 25,
         maxSpeed: 4,
         cost: 15,
         attackCooldown: 2,
@@ -244,8 +244,8 @@ const UNITS = {
     },
     [ROBOT_TOWER]:{
         type: ROBOT_TOWER,
-        maxHealth: 110,
-        attackDamage: 50,
+        maxHealth: 140,
+        attackDamage: 30,
         maxSpeed: 6,
         cost: 12,
         attackCooldown: 1,
@@ -306,7 +306,7 @@ const SPELLS = {
         blastRadius: 8,
         damage: 40,
         flightTime: 1,
-        maxCastX: MIDDLE_X,
+        maxCastX: 999,
     },
     [HEALBALL]: {
         name: HEALBALL,
@@ -599,9 +599,12 @@ const SPELLS = {
         h.summonUnit = this.summonUnit_.bind(this, h);
         h.cast = this.cast_.bind(this, h);
         h.heroTurret = this.world.getThangByID(`${h.color_}-turret`);
+        h.heroTurret.type = 'heroTurret'
         h.heroTurret.spells = []
         h.heroTurret.attackable = false
         h.heroTurret.color = h.color_;
+        h.heroTurret.maxHealth = 99999
+        h.heroTurret.health = 99999
         for (const m of MANA_TYPES) {
             Object.defineProperty(h, m, {get: function() {
                 return this.mana_[m];
@@ -639,6 +642,7 @@ const SPELLS = {
         h.getSpellData = this.getSpellData_.bind(this, h);
         h.getUnitData = this.getUnitData_.bind(this, h);
         h.getTotalMana = this.getTotalMana_.bind(this, h);
+        h.attackRange = 999
         h.heroTurret.attackDamage = HERO_ATTACK_DAMAGE;
         h.heroTurret.attackRange = HERO_ATTACK_RANGE;
         h.heroTurret.commander = true
@@ -1330,7 +1334,7 @@ const SPELLS = {
                 
                 let oppEnemies = unit.findEnemies();
                 for (const enemy of oppEnemies) {
-                    if (enemy.type == "collector")
+                    if (enemy.type == "collector" || enemy.type == "heroTurret")
                     {
                         continue;
                     }
