@@ -1,0 +1,3651 @@
+[
+    {
+      "_id": "670022a88716adfc389b7843",
+      "creator": "5fd667a79c1f3d00278ebeae",
+      "team": "humans",
+      "creatorName": "buddeycc",
+      "leagues": [
+        {
+          "leagueID": "6035837f8098dd003a7ee1df",
+          "stats": {
+            "totalScore": 10
+          }
+        },
+        {
+          "leagueID": "6021d3bbba2199019ac31ffe",
+          "stats": {
+            "totalScore": 10
+          }
+        }
+      ],
+      "submitDate": "2024-10-04T21:32:55.111Z",
+      "submittedCodeLanguage": "python",
+      "totalScore": 40.6170850211184,
+      "ageBracket": "14-18",
+      "creatorCountryCode": "US",
+      "creatorClans": [
+        {
+          "_id": "6021d3bbba2199019ac31ffe",
+          "slug": "fantastic-fabulous-feeple",
+          "type": "public",
+          "name": "Fantastic Fabulous Feeple",
+          "displayName": "Fantastic Fabulous Feeple"
+        }
+      ]
+    },
+    {
+      "_id": "67063570600d155664663c29",
+      "creator": "6706356f4001217dbc103a58",
+      "creatorName": "S-SPDR-PTH2-V1-FRBL-TWR-238",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 37.7115736997775
+    },
+    {
+      "_id": "67063570600d155664663bc9",
+      "creator": "6706356f4001217dbc1039fa",
+      "creatorName": "S-SPDR-PTH1-V1-FRBL-GLM-218",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 37.6647020632783
+    },
+    {
+      "_id": "67063570600d155664663cc1",
+      "creator": "6706356f4001217dbc103b00",
+      "creatorName": "S-SPDR-PTH4-V1-FRBL-RBS-270",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 37.5350331243593
+    },
+    {
+      "_id": "67063570600d155664663d05",
+      "creator": "6706356f4001217dbc103b5c",
+      "creatorName": "S-SPDR-PTH4-V1-HSBL-SPDR-285",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 37.0982712769636
+    },
+    {
+      "_id": "67063570600d155664663cb0",
+      "creator": "6706356f4001217dbc103af3",
+      "creatorName": "S-SPDR-PTH3-V1-HSBL-SPDR-267",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 36.9546163445643
+    },
+    {
+      "_id": "67063570600d155664663ca4",
+      "creator": "6706356f4001217dbc103ae9",
+      "creatorName": "S-SPDR-PTH3-V1-HSBL-RBS-264",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 36.7270356024497
+    },
+    {
+      "_id": "67069077600d155664d32af8",
+      "creator": "670690754001217dbc410062",
+      "creatorName": "S-TWR-PTH2-V1-FRBL-RBS-306",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 36.4963820099076
+    },
+    {
+      "_id": "67063570600d155664663cc9",
+      "creator": "6706356f4001217dbc103b0c",
+      "creatorName": "S-SPDR-PTH4-V1-FRBL-GLM-272",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 36.4806486924421
+    },
+    {
+      "_id": "67063570600d155664663ccc",
+      "creator": "6706356f4001217dbc103b11",
+      "creatorName": "S-SPDR-PTH4-V1-FRBL-SPDR-273",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 36.4068957348497
+    },
+    {
+      "_id": "67063570600d155664663c26",
+      "creator": "6706356f4001217dbc103a54",
+      "creatorName": "S-SPDR-PTH2-V1-FRBL-SPDR-237",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 35.8690933023749
+    },
+    {
+      "_id": "67069077600d155664d32b0e",
+      "creator": "670690754001217dbc410096",
+      "creatorName": "S-TWR-PTH2-V1-HLBL-RBS-312",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 35.6185524054909
+    },
+    {
+      "_id": "67063570600d155664663dd3",
+      "creator": "6706356f4001217dbc103c39",
+      "creatorName": "S-RBS-PTH4-V1-HLBL-SPDR-63",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 35.1470093294232
+    },
+    {
+      "_id": "67063570600d155664663cd2",
+      "creator": "6706356f4001217dbc103b1a",
+      "creatorName": "S-SPDR-PTH4-V1-FRBL-TWR-274",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 35.0148058434268
+    },
+    {
+      "_id": "67063570600d155664663c96",
+      "creator": "6706356f4001217dbc103ad9",
+      "creatorName": "S-SPDR-PTH3-V1-HLBL-SPDR-261",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 34.0183776663366
+    },
+    {
+      "_id": "67063570600d155664663bf7",
+      "creator": "6706356f4001217dbc103a26",
+      "creatorName": "S-SPDR-PTH1-V1-HSBL-RBS-228",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 33.079545508091
+    },
+    {
+      "_id": "67063570600d155664663c3e",
+      "creator": "6706356f4001217dbc103a72",
+      "creatorName": "S-SPDR-PTH2-V1-HLBL-SPDR-243",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 32.2302859491373
+    },
+    {
+      "_id": "67063570600d155664663c57",
+      "creator": "6706356f4001217dbc103a8b",
+      "creatorName": "S-SPDR-PTH2-V1-HSBL-GLM-248",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 31.7435999508714
+    },
+    {
+      "_id": "67069077600d155664d32b01",
+      "creator": "670690754001217dbc41007d",
+      "creatorName": "S-TWR-PTH2-V1-FRBL-SPDR-309",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 31.6584865306887
+    },
+    {
+      "_id": "67069077600d155664d32b6b",
+      "creator": "670690754001217dbc410148",
+      "creatorName": "S-TWR-PTH3-V1-HLBL-SPDR-333",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 30.8609019598813
+    },
+    {
+      "_id": "67063570600d155664663c4c",
+      "creator": "6706356f4001217dbc103a80",
+      "creatorName": "S-SPDR-PTH2-V1-HSBL-RBS-246",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 30.7427410050223
+    },
+    {
+      "_id": "67063570600d155664663c86",
+      "creator": "6706356f4001217dbc103ac5",
+      "creatorName": "S-SPDR-PTH3-V1-HLBL-RBS-258",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 30.0334309424367
+    },
+    {
+      "_id": "67063570600d155664663bcb",
+      "creator": "6706356f4001217dbc1039fd",
+      "creatorName": "S-SPDR-PTH1-V1-FRBL-SPDR-219",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 29.8347645698639
+    },
+    {
+      "_id": "67063570600d155664663bdf",
+      "creator": "6706356f4001217dbc103a0c",
+      "creatorName": "S-SPDR-PTH1-V1-HLBL-RBS-222",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 29.6875898446994
+    },
+    {
+      "_id": "67069077600d155664d32c00",
+      "creator": "670690754001217dbc4102d4",
+      "creatorName": "S-RBMB-PTH1-V1-HLBL-SPDR-369",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 29.2798384263657
+    },
+    {
+      "_id": "67063570600d155664663beb",
+      "creator": "6706356f4001217dbc103a19",
+      "creatorName": "S-SPDR-PTH1-V1-HLBL-SPDR-225",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 28.8234998235903
+    },
+    {
+      "_id": "67063570600d155664663bbb",
+      "creator": "6706356f4001217dbc1039f0",
+      "creatorName": "S-SPDR-PTH1-V1-FRBL-RBS-216",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 28.4854529476533
+    },
+    {
+      "_id": "67060cba600d1556644a5a41",
+      "creator": "67060cba4001217dbcb95451",
+      "creatorName": "S-RBS-PTH2-V1-FRBL-RBS-18",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 27.874966077782
+    },
+    {
+      "_id": "67063570600d155664663c34",
+      "creator": "6706356f4001217dbc103a66",
+      "creatorName": "S-SPDR-PTH2-V1-HLBL-RBS-240",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 27.2336614849229
+    },
+    {
+      "_id": "67063570600d155664663dc8",
+      "creator": "6706356f4001217dbc103c2a",
+      "creatorName": "S-RBS-PTH4-V1-HLBL-RBS-60",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 27.0007140574569
+    },
+    {
+      "_id": "67069077600d155664d32b1d",
+      "creator": "670690754001217dbc4100aa",
+      "creatorName": "S-TWR-PTH2-V1-HLBL-SPDR-315",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 26.9822029371119
+    },
+    {
+      "_id": "67060cba600d1556644a5a88",
+      "creator": "67060cba4001217dbcb954b5",
+      "creatorName": "S-RBS-PTH3-V1-FRBL-SPDR-39",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 26.8895598660445
+    },
+    {
+      "_id": "67063570600d155664663c6b",
+      "creator": "6706356f4001217dbc103aa8",
+      "creatorName": "S-SPDR-PTH3-V1-FRBL-RBS-252",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 26.4160186121417
+    },
+    {
+      "_id": "67063570600d155664663cef",
+      "creator": "6706356f4001217dbc103b3f",
+      "creatorName": "S-SPDR-PTH4-V1-HLBL-TWR-280",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 26.1125651974525
+    },
+    {
+      "_id": "67063570600d155664663c1e",
+      "creator": "6706356f4001217dbc103a4d",
+      "creatorName": "S-SPDR-PTH2-V1-FRBL-GLM-236",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 25.9073264937299
+    },
+    {
+      "_id": "67063570600d155664663cc3",
+      "creator": "6706356f4001217dbc103b07",
+      "creatorName": "S-SPDR-PTH4-V1-FRBL-TRT-271",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 25.101469230105
+    },
+    {
+      "_id": "67063570600d155664663e53",
+      "creator": "6706356f4001217dbc103cea",
+      "creatorName": "S-TRT-PTH2-V1-FRBL-SPDR-93",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 24.5321479725827
+    },
+    {
+      "_id": "67063570600d155664663ab8",
+      "creator": "6706356f4001217dbc10394b",
+      "creatorName": "S-GLM-PTH2-V1-FRBL-SPDR-165",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 24.1548686895659
+    },
+    {
+      "_id": "67063570600d155664663c9c",
+      "creator": "6706356f4001217dbc103ade",
+      "creatorName": "S-SPDR-PTH3-V1-HLBL-TWR-262",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 24.1268973865016
+    },
+    {
+      "_id": "67063570600d155664663c47",
+      "creator": "6706356f4001217dbc103a7c",
+      "creatorName": "S-SPDR-PTH2-V1-HLBL-RBMB-245",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 24.1090207132951
+    },
+    {
+      "_id": "67063570600d155664663ce7",
+      "creator": "6706356f4001217dbc103b31",
+      "creatorName": "S-SPDR-PTH4-V1-HLBL-SPDR-279",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 23.6151880192948
+    },
+    {
+      "_id": "67063570600d155664663c78",
+      "creator": "6706356f4001217dbc103ab6",
+      "creatorName": "S-SPDR-PTH3-V1-FRBL-SPDR-255",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 23.0184387176559
+    },
+    {
+      "_id": "67063570600d155664663c5a",
+      "creator": "6706356f4001217dbc103a8e",
+      "creatorName": "S-SPDR-PTH2-V1-HSBL-SPDR-249",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 22.2980427302012
+    },
+    {
+      "_id": "67063570600d155664663e46",
+      "creator": "6706356f4001217dbc103cdc",
+      "creatorName": "S-TRT-PTH2-V1-FRBL-RBS-90",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 22.1569337217444
+    },
+    {
+      "_id": "66f5460f19647c52bfd99661",
+      "creator": "63e0d3551e18c6002505057c",
+      "creatorName": "VennethCC",
+      "team": "humans",
+      "leagues": [
+        {
+          "leagueID": "601351bb4b79b4013e198fbe",
+          "stats": {
+            "totalScore": 10
+          }
+        },
+        {
+          "leagueID": "60a4378875b540004c78f121",
+          "stats": {
+            "totalScore": 10
+          }
+        }
+      ],
+      "submitDate": "2024-10-11T04:57:08.880Z",
+      "submittedCodeLanguage": "javascript",
+      "totalScore": 22.1300866320182,
+      "creatorCountryCode": "ID",
+      "creatorClans": [
+        {
+          "_id": "60a4378875b540004c78f121",
+          "slug": "hyperx",
+          "type": "public",
+          "displayName": "HyperX",
+          "name": "HyperX"
+        }
+      ]
+    },
+    {
+      "_id": "67063570600d155664663cf9",
+      "creator": "6706356f4001217dbc103b4e",
+      "creatorName": "S-SPDR-PTH4-V1-HSBL-RBS-282",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 22.0792263858513
+    },
+    {
+      "_id": "67069077600d155664d32b9d",
+      "creator": "670690754001217dbc4101d6",
+      "creatorName": "S-TWR-PTH4-V1-FRBL-SPDR-345",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 21.9397857689082
+    },
+    {
+      "_id": "67063570600d155664663bd9",
+      "creator": "6706356f4001217dbc103a07",
+      "creatorName": "S-SPDR-PTH1-V1-FRBL-RBMB-221",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 21.9174225745239
+    },
+    {
+      "_id": "67063570600d155664663ad4",
+      "creator": "6706356f4001217dbc10395a",
+      "creatorName": "S-GLM-PTH2-V1-HLBL-GLM-170",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 21.6716819244447
+    },
+    {
+      "_id": "67063570600d155664663aaf",
+      "creator": "6706356f4001217dbc103946",
+      "creatorName": "S-GLM-PTH2-V1-FRBL-TRT-163",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 21.4249815284385
+    },
+    {
+      "_id": "67063570600d155664663cda",
+      "creator": "6706356f4001217dbc103b22",
+      "creatorName": "S-SPDR-PTH4-V1-HLBL-RBS-276",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 20.9437111656063
+    },
+    {
+      "_id": "67063570600d155664663c3c",
+      "creator": "6706356f4001217dbc103a6d",
+      "creatorName": "S-SPDR-PTH2-V1-HLBL-GLM-242",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 20.8745019030036
+    },
+    {
+      "_id": "67063570600d155664663c19",
+      "creator": "6706356f4001217dbc103a49",
+      "creatorName": "S-SPDR-PTH2-V1-FRBL-TRT-235",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 20.4131335982964
+    },
+    {
+      "_id": "67069077600d155664d32b19",
+      "creator": "670690754001217dbc4100a4",
+      "creatorName": "S-TWR-PTH2-V1-HLBL-GLM-314",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 20.2208856213742
+    },
+    {
+      "_id": "67063570600d155664663c8b",
+      "creator": "6706356f4001217dbc103acb",
+      "creatorName": "S-SPDR-PTH3-V1-HLBL-TRT-259",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 20.18102577708
+    },
+    {
+      "_id": "67063570600d155664663b0f",
+      "creator": "6706356f4001217dbc10397d",
+      "creatorName": "S-GLM-PTH3-V1-FRBL-SPDR-183",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 19.6575372295411
+    },
+    {
+      "_id": "67063570600d155664663c44",
+      "creator": "6706356f4001217dbc103a77",
+      "creatorName": "S-SPDR-PTH2-V1-HLBL-TWR-244",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 19.4779557875335
+    },
+    {
+      "_id": "67063570600d155664663b6e",
+      "creator": "6706356f4001217dbc1039c2",
+      "creatorName": "S-GLM-PTH4-V1-FRBL-SPDR-201",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 19.0454507103365
+    },
+    {
+      "_id": "67063570600d155664663e63",
+      "creator": "6706356f4001217dbc103cfc",
+      "creatorName": "S-TRT-PTH2-V1-HLBL-TRT-97",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 18.9189043038857
+    },
+    {
+      "_id": "67063570600d155664663c7c",
+      "creator": "6706356f4001217dbc103aba",
+      "creatorName": "S-SPDR-PTH3-V1-FRBL-TWR-256",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 18.4677783024069
+    },
+    {
+      "_id": "67069077600d155664d32c48",
+      "creator": "670690754001217dbc410357",
+      "creatorName": "S-RBMB-PTH2-V1-HLBL-SPDR-387",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 18.3991240669927
+    },
+    {
+      "_id": "67063570600d155664663c14",
+      "creator": "6706356f4001217dbc103a42",
+      "creatorName": "S-SPDR-PTH2-V1-FRBL-RBS-234",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 17.9635178500019
+    },
+    {
+      "_id": "67063570600d155664663e6a",
+      "creator": "6706356f4001217dbc103d0a",
+      "creatorName": "S-TRT-PTH2-V1-HLBL-SPDR-99",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 17.9420025254151
+    },
+    {
+      "_id": "67060cba600d1556644a5a90",
+      "creator": "67060cba4001217dbcb954bb",
+      "creatorName": "S-RBS-PTH3-V1-FRBL-TWR-40",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 17.877235855388
+    },
+    {
+      "_id": "67063570600d155664663e5f",
+      "creator": "6706356f4001217dbc103cf6",
+      "creatorName": "S-TRT-PTH2-V1-HLBL-RBS-96",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 17.6161989191878
+    },
+    {
+      "_id": "67063570600d155664663a1c",
+      "creator": "6706356f4001217dbc1038f5",
+      "creatorName": "S-TRT-PTH4-V1-HLBL-SPDR-135",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 17.2772758931112
+    },
+    {
+      "_id": "67063570600d155664663c04",
+      "creator": "6706356f4001217dbc103a32",
+      "creatorName": "S-SPDR-PTH1-V1-HSBL-GLM-230",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 17.2167089825522
+    },
+    {
+      "_id": "67063570600d155664663e1a",
+      "creator": "6706356f4001217dbc103ca5",
+      "creatorName": "S-TRT-PTH1-V1-HLBL-SPDR-81",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 17.1905967749974
+    },
+    {
+      "_id": "67063570600d155664663bb7",
+      "creator": "6706356f4001217dbc1039ec",
+      "creatorName": "S-GLM-PTH4-V1-HSBL-RBMB-215",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 17.0963748951583
+    },
+    {
+      "_id": "67063570600d155664663c2f",
+      "creator": "6706356f4001217dbc103a5c",
+      "creatorName": "S-SPDR-PTH2-V1-FRBL-RBMB-239",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 17.0432401685663
+    },
+    {
+      "_id": "67063570600d155664663dfa",
+      "creator": "6706356f4001217dbc103c73",
+      "creatorName": "S-TRT-PTH1-V1-FRBL-TRT-73",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 17.0247604679308
+    },
+    {
+      "_id": "67063570600d155664663bc5",
+      "creator": "6706356f4001217dbc1039f6",
+      "creatorName": "S-SPDR-PTH1-V1-FRBL-TRT-217",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 17.00558739495
+    },
+    {
+      "_id": "67069077600d155664d32bea",
+      "creator": "670690754001217dbc4102a2",
+      "creatorName": "S-RBMB-PTH1-V1-FRBL-SPDR-363",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 16.6591773843747
+    },
+    {
+      "_id": "67069077600d155664d32b50",
+      "creator": "670690754001217dbc410115",
+      "creatorName": "S-TWR-PTH3-V1-FRBL-SPDR-327",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 15.5537325662213
+    },
+    {
+      "_id": "67063570600d1556646639ac",
+      "creator": "6706356f4001217dbc1038b4",
+      "creatorName": "S-TRT-PTH3-V1-FRBL-SPDR-111",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 15.496824522732
+    },
+    {
+      "_id": "67063570600d155664663e66",
+      "creator": "6706356f4001217dbc103d01",
+      "creatorName": "S-TRT-PTH2-V1-HLBL-GLM-98",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 15.2083700953706
+    },
+    {
+      "_id": "67063570600d155664663df6",
+      "creator": "6706356f4001217dbc103c6f",
+      "creatorName": "S-TRT-PTH1-V1-FRBL-RBS-72",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 14.886504083348
+    },
+    {
+      "_id": "67069077600d155664d32ba9",
+      "creator": "670690754001217dbc4101f9",
+      "creatorName": "S-TWR-PTH4-V1-HLBL-RBS-348",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 14.7743668192861
+    },
+    {
+      "_id": "67060cba600d1556644a5a57",
+      "creator": "67060cba4001217dbcb9546b",
+      "creatorName": "S-RBS-PTH2-V1-HLBL-RBS-24",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 14.6881490345588
+    },
+    {
+      "_id": "67063570600d155664663bee",
+      "creator": "6706356f4001217dbc103a1e",
+      "creatorName": "S-SPDR-PTH1-V1-HLBL-TWR-226",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 14.6313644947966
+    },
+    {
+      "_id": "67069077600d155664d32ba0",
+      "creator": "670690754001217dbc4101e2",
+      "creatorName": "S-TWR-PTH4-V1-FRBL-TWR-346",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 14.5374103553303
+    },
+    {
+      "_id": "67069077600d155664d32aff",
+      "creator": "670690754001217dbc410072",
+      "creatorName": "S-TWR-PTH2-V1-FRBL-GLM-308",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 14.5293655994763
+    },
+    {
+      "_id": "67063570600d155664663a80",
+      "creator": "6706356f4001217dbc103928",
+      "creatorName": "S-GLM-PTH1-V1-HLBL-SPDR-153",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 14.5105657439945
+    },
+    {
+      "_id": "67069077600d155664d32b07",
+      "creator": "670690754001217dbc41008a",
+      "creatorName": "S-TWR-PTH2-V1-FRBL-TWR-310",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 13.9888176687529
+    },
+    {
+      "_id": "67063570600d155664663aab",
+      "creator": "6706356f4001217dbc103944",
+      "creatorName": "S-GLM-PTH2-V1-FRBL-RBS-162",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 13.9533604617546
+    },
+    {
+      "_id": "67063570600d155664663c08",
+      "creator": "6706356f4001217dbc103a38",
+      "creatorName": "S-SPDR-PTH1-V1-HSBL-SPDR-231",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 13.9293881255369
+    },
+    {
+      "_id": "67060cba600d1556644a5a4f",
+      "creator": "67060cba4001217dbcb95463",
+      "creatorName": "S-RBS-PTH2-V1-FRBL-TWR-22",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 13.7577807167105
+    },
+    {
+      "_id": "67060cba600d1556644a5a4c",
+      "creator": "67060cba4001217dbcb9545f",
+      "creatorName": "S-RBS-PTH2-V1-FRBL-SPDR-21",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 13.7440381444332
+    },
+    {
+      "_id": "67063570600d155664663ad9",
+      "creator": "6706356f4001217dbc10395e",
+      "creatorName": "S-GLM-PTH2-V1-HLBL-SPDR-171",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 13.7007150370186
+    },
+    {
+      "_id": "67063570600d155664663a62",
+      "creator": "6706356f4001217dbc103912",
+      "creatorName": "S-GLM-PTH1-V1-FRBL-SPDR-147",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 13.5792673404696
+    },
+    {
+      "_id": "67063570600d155664663dcc",
+      "creator": "6706356f4001217dbc103c30",
+      "creatorName": "S-RBS-PTH4-V1-HLBL-TRT-61",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 13.5403432866269
+    },
+    {
+      "_id": "67063570600d155664663a00",
+      "creator": "6706356f4001217dbc1038e9",
+      "creatorName": "S-TRT-PTH4-V1-FRBL-SPDR-129",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 13.4706318040038
+    },
+    {
+      "_id": "67069077600d155664d32bf4",
+      "creator": "670690754001217dbc4102cc",
+      "creatorName": "S-RBMB-PTH1-V1-HLBL-RBS-366",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 13.415259182043
+    },
+    {
+      "_id": "67069077600d155664d32afd",
+      "creator": "670690754001217dbc41006b",
+      "creatorName": "S-TWR-PTH2-V1-FRBL-TRT-307",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 13.3831844475269
+    },
+    {
+      "_id": "67063570600d155664663c10",
+      "creator": "6706356f4001217dbc103a40",
+      "creatorName": "S-SPDR-PTH1-V1-HSBL-RBMB-233",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 13.3565151996525
+    },
+    {
+      "_id": "67060cba600d1556644a5acc",
+      "creator": "67060cba4001217dbcb95501",
+      "creatorName": "S-RBS-PTH4-V1-FRBL-SPDR-57",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 13.3140600022675
+    },
+    {
+      "_id": "67063570600d155664663b49",
+      "creator": "6706356f4001217dbc1039b1",
+      "creatorName": "S-GLM-PTH3-V1-HSBL-SPDR-195",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 13.2813031972205
+    },
+    {
+      "_id": "67069077600d155664d32b3c",
+      "creator": "670690754001217dbc4100e1",
+      "creatorName": "S-TWR-PTH2-V1-HSBL-SPDR-321",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 13.0863629189671
+    },
+    {
+      "_id": "67060cba600d1556644a5ac8",
+      "creator": "67060cba4001217dbcb954f7",
+      "creatorName": "S-RBS-PTH4-V1-FRBL-TRT-55",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 12.9754721097857
+    },
+    {
+      "_id": "67069077600d155664d32cbf",
+      "creator": "670690754001217dbc410428",
+      "creatorName": "S-RBMB-PTH4-V1-HLBL-TRT-421",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 12.9294426368378
+    },
+    {
+      "_id": "67063570600d155664663ca9",
+      "creator": "6706356f4001217dbc103aee",
+      "creatorName": "S-SPDR-PTH3-V1-HSBL-TRT-265",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 12.8772322659866
+    },
+    {
+      "_id": "67063570600d155664663add",
+      "creator": "6706356f4001217dbc103960",
+      "creatorName": "S-GLM-PTH2-V1-HLBL-TWR-172",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 12.8128468029344
+    },
+    {
+      "_id": "67060cba600d1556644a5ab3",
+      "creator": "67060cba4001217dbcb954da",
+      "creatorName": "S-RBS-PTH3-V1-HSBL-TRT-49",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 12.292957092698
+    },
+    {
+      "_id": "67060cba600d1556644a5ab6",
+      "creator": "67060cba4001217dbcb954e4",
+      "creatorName": "S-RBS-PTH3-V1-HSBL-GLM-50",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 12.1903469615356
+    },
+    {
+      "_id": "67063570600d155664663975",
+      "creator": "6706356f4001217dbc10388c",
+      "creatorName": "S-TRT-PTH2-V1-HLBL-TWR-100",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 12.109300005068
+    },
+    {
+      "_id": "67069077600d155664d32b65",
+      "creator": "670690754001217dbc410139",
+      "creatorName": "S-TWR-PTH3-V1-HLBL-TRT-331",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 12.0701570393237
+    },
+    {
+      "_id": "67069077600d155664d32bd4",
+      "creator": "670690754001217dbc41025f",
+      "creatorName": "S-TWR-PTH4-V1-HSBL-SPDR-357",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 11.9679031075654
+    },
+    {
+      "_id": "67069077600d155664d32c59",
+      "creator": "670690754001217dbc410368",
+      "creatorName": "S-RBMB-PTH2-V1-HSBL-RBS-390",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 11.9090193274352
+    },
+    {
+      "_id": "67063570600d155664663d1c",
+      "creator": "6706356f4001217dbc103b7b",
+      "creatorName": "S-TWR-PTH1-V1-FRBL-SPDR-291",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 11.8553401547525
+    },
+    {
+      "_id": "67063570600d155664663c51",
+      "creator": "6706356f4001217dbc103a84",
+      "creatorName": "S-SPDR-PTH2-V1-HSBL-TRT-247",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 11.5537811268439
+    },
+    {
+      "_id": "67063570600d155664663b1e",
+      "creator": "6706356f4001217dbc103990",
+      "creatorName": "S-GLM-PTH3-V1-HLBL-RBS-186",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 11.5122213596009
+    },
+    {
+      "_id": "67063570600d155664663de0",
+      "creator": "6706356f4001217dbc103c51",
+      "creatorName": "S-RBS-PTH4-V1-HSBL-TRT-67",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 11.4816511575273
+    },
+    {
+      "_id": "67069077600d155664d32b2d",
+      "creator": "670690754001217dbc4100d0",
+      "creatorName": "S-TWR-PTH2-V1-HSBL-TRT-319",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 11.4424090389059
+    },
+    {
+      "_id": "67069077600d155664d32b49",
+      "creator": "670690754001217dbc41010a",
+      "creatorName": "S-TWR-PTH3-V1-FRBL-TRT-325",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 11.2387224683548
+    },
+    {
+      "_id": "67063570600d155664663be3",
+      "creator": "6706356f4001217dbc103a11",
+      "creatorName": "S-SPDR-PTH1-V1-HLBL-TRT-223",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 11.2181976240819
+    },
+    {
+      "_id": "67063570600d155664663e4f",
+      "creator": "6706356f4001217dbc103ce5",
+      "creatorName": "S-TRT-PTH2-V1-FRBL-GLM-92",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 11.2169157566432
+    },
+    {
+      "_id": "67063570600d155664663d0e",
+      "creator": "6706356f4001217dbc103b6d",
+      "creatorName": "S-TWR-PTH1-V1-FRBL-RBS-288",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 11.0987646334121
+    },
+    {
+      "_id": "67063570600d155664663e56",
+      "creator": "6706356f4001217dbc103cef",
+      "creatorName": "S-TRT-PTH2-V1-FRBL-TWR-94",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 11.0777273574971
+    },
+    {
+      "_id": "67063570600d155664663b57",
+      "creator": "6706356f4001217dbc1039b7",
+      "creatorName": "S-GLM-PTH4-V1-FRBL-RBS-198",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10.9274339360321
+    },
+    {
+      "_id": "67060cba600d1556644a5aad",
+      "creator": "67060cba4001217dbcb954d3",
+      "creatorName": "S-RBS-PTH3-V1-HLBL-RBMB-47",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10.614938194618
+    },
+    {
+      "_id": "67069077600d155664d32cc8",
+      "creator": "670690754001217dbc410431",
+      "creatorName": "S-RBMB-PTH4-V1-HLBL-SPDR-423",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10.1274070029008
+    },
+    {
+      "_id": "67063570600d155664663de8",
+      "creator": "6706356f4001217dbc103c59",
+      "creatorName": "S-RBS-PTH4-V1-HSBL-SPDR-69",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d155664663d32",
+      "creator": "6706356f4001217dbc103b97",
+      "creatorName": "S-TWR-PTH1-V1-HLBL-SPDR-297",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d155664663ba9",
+      "creator": "6706356f4001217dbc1039db",
+      "creatorName": "S-GLM-PTH4-V1-HSBL-GLM-212",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d155664663b53",
+      "creator": "6706356f4001217dbc1039b5",
+      "creatorName": "S-GLM-PTH3-V1-HSBL-RBMB-197",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d155664663b04",
+      "creator": "6706356f4001217dbc103974",
+      "creatorName": "S-GLM-PTH3-V1-FRBL-RBS-180",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d155664663af6",
+      "creator": "6706356f4001217dbc10396d",
+      "creatorName": "S-GLM-PTH2-V1-HSBL-TWR-178",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d155664663abc",
+      "creator": "6706356f4001217dbc10394d",
+      "creatorName": "S-GLM-PTH2-V1-FRBL-TWR-166",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d155664663a7c",
+      "creator": "6706356f4001217dbc103926",
+      "creatorName": "S-GLM-PTH1-V1-HLBL-GLM-152",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d155664663a65",
+      "creator": "6706356f4001217dbc10391a",
+      "creatorName": "S-GLM-PTH1-V1-FRBL-TWR-148",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d155664663a55",
+      "creator": "6706356f4001217dbc10390e",
+      "creatorName": "S-GLM-PTH1-V1-FRBL-TRT-145",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d155664663a51",
+      "creator": "6706356f4001217dbc10390d",
+      "creatorName": "S-GLM-PTH1-V1-FRBL-RBS-144",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d155664663a14",
+      "creator": "6706356f4001217dbc1038f1",
+      "creatorName": "S-TRT-PTH4-V1-HLBL-TRT-133",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d155664663a0f",
+      "creator": "6706356f4001217dbc1038ef",
+      "creatorName": "S-TRT-PTH4-V1-HLBL-RBS-132",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d1556646639fd",
+      "creator": "6706356f4001217dbc1038e5",
+      "creatorName": "S-TRT-PTH4-V1-FRBL-GLM-128",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d1556646639d0",
+      "creator": "6706356f4001217dbc1038c7",
+      "creatorName": "S-TRT-PTH3-V1-HLBL-RBMB-119",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d1556646639c9",
+      "creator": "6706356f4001217dbc1038c1",
+      "creatorName": "S-TRT-PTH3-V1-HLBL-SPDR-117",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d1556646639bf",
+      "creator": "6706356f4001217dbc1038bd",
+      "creatorName": "S-TRT-PTH3-V1-HLBL-TRT-115",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d1556646639b7",
+      "creator": "6706356f4001217dbc1038b8",
+      "creatorName": "S-TRT-PTH3-V1-FRBL-RBMB-113",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d155664663993",
+      "creator": "6706356f4001217dbc1038a2",
+      "creatorName": "S-TRT-PTH2-V1-HSBL-TWR-106",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5ad4",
+      "creator": "67060cba4001217dbcb9550a",
+      "creatorName": "S-RBS-PTH4-V1-FRBL-RBMB-59",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5ad2",
+      "creator": "67060cba4001217dbcb95503",
+      "creatorName": "S-RBS-PTH4-V1-FRBL-TWR-58",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5aca",
+      "creator": "67060cba4001217dbcb954fc",
+      "creatorName": "S-RBS-PTH4-V1-FRBL-GLM-56",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5ac4",
+      "creator": "67060cba4001217dbcb954f2",
+      "creatorName": "S-RBS-PTH4-V1-FRBL-RBS-54",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5abc",
+      "creator": "67060cba4001217dbcb954e6",
+      "creatorName": "S-RBS-PTH3-V1-HSBL-SPDR-51",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5ab1",
+      "creator": "67060cba4001217dbcb954d4",
+      "creatorName": "S-RBS-PTH3-V1-HSBL-RBS-48",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5aa4",
+      "creator": "67060cba4001217dbcb954cf",
+      "creatorName": "S-RBS-PTH3-V1-HLBL-SPDR-45",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5aa1",
+      "creator": "67060cba4001217dbcb954cc",
+      "creatorName": "S-RBS-PTH3-V1-HLBL-GLM-44",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5a97",
+      "creator": "67060cba4001217dbcb954c4",
+      "creatorName": "S-RBS-PTH3-V1-HLBL-RBS-42",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5a85",
+      "creator": "67060cba4001217dbcb954af",
+      "creatorName": "S-RBS-PTH3-V1-FRBL-GLM-38",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5a82",
+      "creator": "67060cba4001217dbcb954ac",
+      "creatorName": "S-RBS-PTH3-V1-FRBL-TRT-37",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5a80",
+      "creator": "67060cba4001217dbcb954a9",
+      "creatorName": "S-RBS-PTH3-V1-FRBL-RBS-36",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5a7d",
+      "creator": "67060cba4001217dbcb954a6",
+      "creatorName": "S-RBS-PTH2-V1-HSBL-RBMB-35",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5a79",
+      "creator": "67060cba4001217dbcb9549e",
+      "creatorName": "S-RBS-PTH2-V1-HSBL-SPDR-33",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5a71",
+      "creator": "67060cba4001217dbcb95495",
+      "creatorName": "S-RBS-PTH2-V1-HSBL-TRT-31",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5a6a",
+      "creator": "67060cba4001217dbcb9548b",
+      "creatorName": "S-RBS-PTH2-V1-HLBL-RBMB-29",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5a64",
+      "creator": "67060cba4001217dbcb95482",
+      "creatorName": "S-RBS-PTH2-V1-HLBL-TWR-28",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5a61",
+      "creator": "67060cba4001217dbcb9547e",
+      "creatorName": "S-RBS-PTH2-V1-HLBL-SPDR-27",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5a5e",
+      "creator": "67060cba4001217dbcb9547a",
+      "creatorName": "S-RBS-PTH2-V1-HLBL-GLM-26",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5a49",
+      "creator": "67060cba4001217dbcb9545c",
+      "creatorName": "S-RBS-PTH2-V1-FRBL-GLM-20",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5a3d",
+      "creator": "67060cba4001217dbcb9544c",
+      "creatorName": "S-RBS-PTH1-V1-HSBL-RBMB-17",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5a39",
+      "creator": "67060cba4001217dbcb9544a",
+      "creatorName": "S-RBS-PTH1-V1-HSBL-TWR-16",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67060cba600d1556644a5a2a",
+      "creator": "67060cba4001217dbcb95446",
+      "creatorName": "S-RBS-PTH1-V1-HSBL-SPDR-15",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "6704b8b0600d155664ca8494",
+      "creator": "6704b8b04001217dbc797611",
+      "creatorName": "S-RBS-PTH1-V1-HLBL-SPDR-9",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "6704b8b0600d155664ca848f",
+      "creator": "6704b8b04001217dbc79760d",
+      "creatorName": "S-RBS-PTH1-V1-HLBL-GLM-8",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "6704b8b0600d155664ca848b",
+      "creator": "6704b8b04001217dbc797606",
+      "creatorName": "S-RBS-PTH1-V1-HLBL-TRT-7",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "6704b8b0600d155664ca8487",
+      "creator": "6704b8b04001217dbc7975ff",
+      "creatorName": "S-RBS-PTH1-V1-HLBL-RBS-6",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "6704b8b0600d155664ca8483",
+      "creator": "6704b8b04001217dbc7975fa",
+      "creatorName": "S-RBS-PTH1-V1-FRBL-RBMB-5",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "6704b8b0600d155664ca8476",
+      "creator": "6704b8b04001217dbc7975e9",
+      "creatorName": "S-RBS-PTH1-V1-HSBL-GLM-14",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "6704b8b0600d155664ca8471",
+      "creator": "6704b8b04001217dbc7975e6",
+      "creatorName": "S-RBS-PTH1-V1-HSBL-TRT-13",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "6704b8b0600d155664ca846e",
+      "creator": "6704b8b04001217dbc7975e3",
+      "creatorName": "S-RBS-PTH1-V1-HSBL-RBS-12",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "6704b8b0600d155664ca846b",
+      "creator": "6704b8b04001217dbc7975e1",
+      "creatorName": "S-RBS-PTH1-V1-HLBL-RBMB-11",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "6704b8b0600d155664ca8468",
+      "creator": "6704b8b04001217dbc7975de",
+      "creatorName": "S-RBS-PTH1-V1-HLBL-TWR-10",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "6704b87d600d155664ca6fe5",
+      "creator": "6704b87d4001217dbc792c98",
+      "creatorName": "S-RBS-PTH1-V1-FRBL-TWR-4",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "6704b87d600d155664ca6fe2",
+      "creator": "6704b87d4001217dbc792c96",
+      "creatorName": "S-RBS-PTH1-V1-FRBL-SPDR-3",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "6704b87d600d155664ca6fdf",
+      "creator": "6704b87d4001217dbc792c91",
+      "creatorName": "S-RBS-PTH1-V1-FRBL-GLM-2",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "6704b87d600d155664ca6fda",
+      "creator": "6704b87d4001217dbc792c8f",
+      "creatorName": "S-RBS-PTH1-V1-FRBL-TRT-1",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "6704b87d600d155664ca6fd9",
+      "creator": "6704b87d4001217dbc792c8d",
+      "creatorName": "S-RBS-PTH1-V1-FRBL-RBS-0",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 10
+    },
+    {
+      "_id": "67063570600d155664663ce2",
+      "creator": "6706356f4001217dbc103b2b",
+      "creatorName": "S-SPDR-PTH4-V1-HLBL-GLM-278",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.96644522735537
+    },
+    {
+      "_id": "67063570600d155664663cb6",
+      "creator": "6706356f4001217dbc103af9",
+      "creatorName": "S-SPDR-PTH3-V1-HSBL-TWR-268",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.95189363507578
+    },
+    {
+      "_id": "67069077600d155664d32c0e",
+      "creator": "670690754001217dbc4102f1",
+      "creatorName": "S-RBMB-PTH1-V1-HSBL-TRT-373",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.92619427089887
+    },
+    {
+      "_id": "67069077600d155664d32b95",
+      "creator": "670690754001217dbc4101c1",
+      "creatorName": "S-TWR-PTH4-V1-FRBL-TRT-343",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.91253970619179
+    },
+    {
+      "_id": "67063570600d155664663c62",
+      "creator": "6706356f4001217dbc103a9a",
+      "creatorName": "S-SPDR-PTH2-V1-HSBL-TWR-250",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.87929036566492
+    },
+    {
+      "_id": "67063570600d155664663d21",
+      "creator": "6706356f4001217dbc103b7e",
+      "creatorName": "S-TWR-PTH1-V1-FRBL-TWR-292",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.84302594207309
+    },
+    {
+      "_id": "67069077600d155664d32c43",
+      "creator": "670690754001217dbc410347",
+      "creatorName": "S-RBMB-PTH2-V1-HLBL-TRT-385",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.80449056064289
+    },
+    {
+      "_id": "67063570600d155664663a41",
+      "creator": "6706356f4001217dbc103905",
+      "creatorName": "S-TRT-PTH4-V1-HSBL-GLM-140",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.77736584487146
+    },
+    {
+      "_id": "67069077600d155664d32b21",
+      "creator": "670690754001217dbc4100b8",
+      "creatorName": "S-TWR-PTH2-V1-HLBL-TWR-316",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.74718607197811
+    },
+    {
+      "_id": "67069077600d155664d32b68",
+      "creator": "670690754001217dbc41013e",
+      "creatorName": "S-TWR-PTH3-V1-HLBL-GLM-332",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.69093018979272
+    },
+    {
+      "_id": "67063570600d155664663e4a",
+      "creator": "6706356f4001217dbc103ce1",
+      "creatorName": "S-TRT-PTH2-V1-FRBL-TRT-91",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.68962500580241
+    },
+    {
+      "_id": "67069077600d155664d32b3f",
+      "creator": "670690754001217dbc4100e6",
+      "creatorName": "S-TWR-PTH2-V1-HSBL-TWR-322",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.68619128416238
+    },
+    {
+      "_id": "67069077600d155664d32c34",
+      "creator": "670690754001217dbc410333",
+      "creatorName": "S-RBMB-PTH2-V1-FRBL-SPDR-381",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.55034306226205
+    },
+    {
+      "_id": "67069077600d155664d32bbb",
+      "creator": "670690754001217dbc410220",
+      "creatorName": "S-TWR-PTH4-V1-HLBL-SPDR-351",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.52379405230463
+    },
+    {
+      "_id": "67069077600d155664d32b15",
+      "creator": "670690754001217dbc41009d",
+      "creatorName": "S-TWR-PTH2-V1-HLBL-TRT-313",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.5026357994475
+    },
+    {
+      "_id": "67069077600d155664d32cda",
+      "creator": "670690754001217dbc410454",
+      "creatorName": "S-RBMB-PTH4-V1-HSBL-SPDR-429",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.47121352007687
+    },
+    {
+      "_id": "67063570600d155664663e01",
+      "creator": "6706356f4001217dbc103c7d",
+      "creatorName": "S-TRT-PTH1-V1-FRBL-SPDR-75",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.46910718647329
+    },
+    {
+      "_id": "67063570600d155664663dd7",
+      "creator": "6706356f4001217dbc103c3f",
+      "creatorName": "S-RBS-PTH4-V1-HLBL-TWR-64",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.38271748367171
+    },
+    {
+      "_id": "67069077600d155664d32c88",
+      "creator": "670690754001217dbc4103c1",
+      "creatorName": "S-RBMB-PTH3-V1-HLBL-TRT-403",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.36639212308588
+    },
+    {
+      "_id": "67069077600d155664d32ca8",
+      "creator": "670690754001217dbc410400",
+      "creatorName": "S-RBMB-PTH4-V1-FRBL-RBS-414",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.34323453191924
+    },
+    {
+      "_id": "67069077600d155664d32b91",
+      "creator": "670690754001217dbc4101b2",
+      "creatorName": "S-TWR-PTH4-V1-FRBL-RBS-342",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.30010090272839
+    },
+    {
+      "_id": "67069077600d155664d32c4d",
+      "creator": "670690754001217dbc41035e",
+      "creatorName": "S-RBMB-PTH2-V1-HLBL-TWR-388",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.19161937744629
+    },
+    {
+      "_id": "67069077600d155664d32bec",
+      "creator": "670690754001217dbc4102b5",
+      "creatorName": "S-RBMB-PTH1-V1-FRBL-TWR-364",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.18951245511796
+    },
+    {
+      "_id": "67069077600d155664d32c6e",
+      "creator": "670690754001217dbc410395",
+      "creatorName": "S-RBMB-PTH3-V1-FRBL-TRT-397",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.11552997030473
+    },
+    {
+      "_id": "67069077600d155664d32aec",
+      "creator": "670690754001217dbc410051",
+      "creatorName": "S-TWR-PTH1-V1-HSBL-SPDR-303",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.08814563123658
+    },
+    {
+      "_id": "67063570600d155664663a15",
+      "creator": "6706356f4001217dbc1038f3",
+      "creatorName": "S-TRT-PTH4-V1-HLBL-GLM-134",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.06060615681954
+    },
+    {
+      "_id": "67063570600d155664663e27",
+      "creator": "6706356f4001217dbc103cb8",
+      "creatorName": "S-TRT-PTH1-V1-HSBL-RBS-84",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.04383632640733
+    },
+    {
+      "_id": "67069077600d155664d32cd0",
+      "creator": "670690754001217dbc410441",
+      "creatorName": "S-RBMB-PTH4-V1-HSBL-RBS-426",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.02828227401376
+    },
+    {
+      "_id": "67069077600d155664d32b98",
+      "creator": "670690754001217dbc4101ce",
+      "creatorName": "S-TWR-PTH4-V1-FRBL-GLM-344",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.01841276171915
+    },
+    {
+      "_id": "67063570600d15566466398c",
+      "creator": "6706356f4001217dbc10389d",
+      "creatorName": "S-TRT-PTH2-V1-HSBL-GLM-104",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 9.01755542312018
+    },
+    {
+      "_id": "67063570600d155664663a2b",
+      "creator": "6706356f4001217dbc1038fd",
+      "creatorName": "S-TRT-PTH4-V1-HSBL-RBS-138",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.91314820953819
+    },
+    {
+      "_id": "67063570600d1556646639b3",
+      "creator": "6706356f4001217dbc1038b6",
+      "creatorName": "S-TRT-PTH3-V1-FRBL-TWR-112",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.86603908567326
+    },
+    {
+      "_id": "67069077600d155664d32be2",
+      "creator": "670690754001217dbc41028c",
+      "creatorName": "S-RBMB-PTH1-V1-FRBL-RBS-360",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.84542708320149
+    },
+    {
+      "_id": "67063570600d155664663c0c",
+      "creator": "6706356f4001217dbc103a3a",
+      "creatorName": "S-SPDR-PTH1-V1-HSBL-TWR-232",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.78591197330997
+    },
+    {
+      "_id": "67069077600d155664d32c6c",
+      "creator": "670690754001217dbc41038e",
+      "creatorName": "S-RBMB-PTH3-V1-FRBL-RBS-396",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.78197249572088
+    },
+    {
+      "_id": "67069077600d155664d32ca9",
+      "creator": "670690754001217dbc410407",
+      "creatorName": "S-RBMB-PTH4-V1-FRBL-TRT-415",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.74684623321491
+    },
+    {
+      "_id": "67063570600d155664663c83",
+      "creator": "6706356f4001217dbc103abe",
+      "creatorName": "S-SPDR-PTH3-V1-FRBL-RBMB-257",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.74246934578233
+    },
+    {
+      "_id": "67069077600d155664d32b29",
+      "creator": "670690754001217dbc4100c9",
+      "creatorName": "S-TWR-PTH2-V1-HSBL-RBS-318",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.7094014964799
+    },
+    {
+      "_id": "67063570600d155664663cd4",
+      "creator": "6706356f4001217dbc103b1e",
+      "creatorName": "S-SPDR-PTH4-V1-FRBL-RBMB-275",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.69909987206615
+    },
+    {
+      "_id": "67063570600d155664663b81",
+      "creator": "6706356f4001217dbc1039ca",
+      "creatorName": "S-GLM-PTH4-V1-HLBL-TRT-205",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.67350321290041
+    },
+    {
+      "_id": "67069077600d155664d32c91",
+      "creator": "670690754001217dbc4103ca",
+      "creatorName": "S-RBMB-PTH3-V1-HLBL-SPDR-405",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.65230530116812
+    },
+    {
+      "_id": "67063570600d155664663e16",
+      "creator": "6706356f4001217dbc103c9e",
+      "creatorName": "S-TRT-PTH1-V1-HLBL-GLM-80",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.64233481006324
+    },
+    {
+      "_id": "67069077600d155664d32be6",
+      "creator": "670690754001217dbc410291",
+      "creatorName": "S-RBMB-PTH1-V1-FRBL-TRT-361",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.58035854489962
+    },
+    {
+      "_id": "67063570600d155664663b5c",
+      "creator": "6706356f4001217dbc1039b9",
+      "creatorName": "S-GLM-PTH4-V1-FRBL-TRT-199",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.56508176890963
+    },
+    {
+      "_id": "67069077600d155664d32b82",
+      "creator": "670690754001217dbc410188",
+      "creatorName": "S-TWR-PTH3-V1-HSBL-SPDR-339",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.55187541451413
+    },
+    {
+      "_id": "67063570600d155664663d25",
+      "creator": "6706356f4001217dbc103b8b",
+      "creatorName": "S-TWR-PTH1-V1-HLBL-RBS-294",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.51802837724639
+    },
+    {
+      "_id": "67063570600d155664663b22",
+      "creator": "6706356f4001217dbc103995",
+      "creatorName": "S-GLM-PTH3-V1-HLBL-TRT-187",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.50672564148183
+    },
+    {
+      "_id": "67063570600d155664663a4d",
+      "creator": "6706356f4001217dbc10390b",
+      "creatorName": "S-TRT-PTH4-V1-HSBL-RBMB-143",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.49674907780067
+    },
+    {
+      "_id": "67063570600d155664663b1a",
+      "creator": "6706356f4001217dbc10398c",
+      "creatorName": "S-GLM-PTH3-V1-FRBL-RBMB-185",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.48040892845456
+    },
+    {
+      "_id": "67063570600d155664663e08",
+      "creator": "6706356f4001217dbc103c87",
+      "creatorName": "S-TRT-PTH1-V1-FRBL-RBMB-77",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.47879876456614
+    },
+    {
+      "_id": "67063570600d1556646639eb",
+      "creator": "6706356f4001217dbc1038dc",
+      "creatorName": "S-TRT-PTH3-V1-HSBL-TWR-124",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.47759133492523
+    },
+    {
+      "_id": "67063570600d155664663a8c",
+      "creator": "6706356f4001217dbc10392f",
+      "creatorName": "S-GLM-PTH1-V1-HSBL-RBS-156",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.44820197694765
+    },
+    {
+      "_id": "67063570600d155664663a2f",
+      "creator": "6706356f4001217dbc1038ff",
+      "creatorName": "S-TRT-PTH4-V1-HSBL-TRT-139",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.43107051248568
+    },
+    {
+      "_id": "67069077600d155664d32c17",
+      "creator": "670690754001217dbc410309",
+      "creatorName": "S-RBMB-PTH1-V1-HSBL-SPDR-375",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.40288227273078
+    },
+    {
+      "_id": "67063570600d155664663982",
+      "creator": "6706356f4001217dbc10389b",
+      "creatorName": "S-TRT-PTH2-V1-HSBL-TRT-103",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.38876900013022
+    },
+    {
+      "_id": "67069077600d155664d32cba",
+      "creator": "670690754001217dbc410424",
+      "creatorName": "S-RBMB-PTH4-V1-HLBL-RBS-420",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.38252308573309
+    },
+    {
+      "_id": "67063570600d155664663a8f",
+      "creator": "6706356f4001217dbc103931",
+      "creatorName": "S-GLM-PTH1-V1-HSBL-TRT-157",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.37597352509517
+    },
+    {
+      "_id": "67063570600d155664663ac5",
+      "creator": "6706356f4001217dbc103953",
+      "creatorName": "S-GLM-PTH2-V1-HLBL-RBS-168",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.37320936599962
+    },
+    {
+      "_id": "67063570600d155664663d0b",
+      "creator": "6706356f4001217dbc103b67",
+      "creatorName": "S-SPDR-PTH4-V1-HSBL-RBMB-287",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.36401051585439
+    },
+    {
+      "_id": "67060cba600d1556644a5a6e",
+      "creator": "67060cba4001217dbcb95492",
+      "creatorName": "S-RBS-PTH2-V1-HSBL-RBS-30",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.33017176629431
+    },
+    {
+      "_id": "67063570600d1556646639a8",
+      "creator": "6706356f4001217dbc1038b3",
+      "creatorName": "S-TRT-PTH3-V1-FRBL-GLM-110",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.32820723839507
+    },
+    {
+      "_id": "67063570600d155664663a94",
+      "creator": "6706356f4001217dbc103935",
+      "creatorName": "S-GLM-PTH1-V1-HSBL-GLM-158",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.31364575429649
+    },
+    {
+      "_id": "67063570600d1556646639c3",
+      "creator": "6706356f4001217dbc1038bf",
+      "creatorName": "S-TRT-PTH3-V1-HLBL-GLM-116",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.31298655183705
+    },
+    {
+      "_id": "67069077600d155664d32b7b",
+      "creator": "670690754001217dbc410172",
+      "creatorName": "S-TWR-PTH3-V1-HSBL-TRT-337",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.26050810887444
+    },
+    {
+      "_id": "67069077600d155664d32b46",
+      "creator": "670690754001217dbc4100fd",
+      "creatorName": "S-TWR-PTH3-V1-FRBL-RBS-324",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.25678442849327
+    },
+    {
+      "_id": "67063570600d155664663b92",
+      "creator": "6706356f4001217dbc1039d3",
+      "creatorName": "S-GLM-PTH4-V1-HLBL-RBMB-209",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.25485027038747
+    },
+    {
+      "_id": "67063570600d155664663b9d",
+      "creator": "6706356f4001217dbc1039d6",
+      "creatorName": "S-GLM-PTH4-V1-HSBL-RBS-210",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.22467233611272
+    },
+    {
+      "_id": "67063570600d155664663b08",
+      "creator": "6706356f4001217dbc103975",
+      "creatorName": "S-GLM-PTH3-V1-FRBL-TRT-181",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.22284854560877
+    },
+    {
+      "_id": "67060cba600d1556644a5a72",
+      "creator": "67060cba4001217dbcb9549a",
+      "creatorName": "S-RBS-PTH2-V1-HSBL-GLM-32",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.19533157343359
+    },
+    {
+      "_id": "67063570600d1556646639ba",
+      "creator": "6706356f4001217dbc1038bb",
+      "creatorName": "S-TRT-PTH3-V1-HLBL-RBS-114",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.18466527555916
+    },
+    {
+      "_id": "67063570600d155664663ab4",
+      "creator": "6706356f4001217dbc103948",
+      "creatorName": "S-GLM-PTH2-V1-FRBL-GLM-164",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.14234225211974
+    },
+    {
+      "_id": "67063570600d155664663a99",
+      "creator": "6706356f4001217dbc10393a",
+      "creatorName": "S-GLM-PTH1-V1-HSBL-SPDR-159",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.12961518759854
+    },
+    {
+      "_id": "67063570600d155664663b4f",
+      "creator": "6706356f4001217dbc1039b4",
+      "creatorName": "S-GLM-PTH3-V1-HSBL-TWR-196",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.07611048129253
+    },
+    {
+      "_id": "67063570600d155664663a21",
+      "creator": "6706356f4001217dbc1038f7",
+      "creatorName": "S-TRT-PTH4-V1-HLBL-TWR-136",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.03603103098099
+    },
+    {
+      "_id": "67063570600d155664663a5b",
+      "creator": "6706356f4001217dbc10390f",
+      "creatorName": "S-GLM-PTH1-V1-FRBL-GLM-146",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.01458902610959
+    },
+    {
+      "_id": "67063570600d155664663c66",
+      "creator": "6706356f4001217dbc103a9d",
+      "creatorName": "S-SPDR-PTH2-V1-HSBL-RBMB-251",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.01089031276937
+    },
+    {
+      "_id": "67063570600d155664663c72",
+      "creator": "6706356f4001217dbc103ab2",
+      "creatorName": "S-SPDR-PTH3-V1-FRBL-GLM-254",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 8.00214000167622
+    },
+    {
+      "_id": "67063570600d155664663af2",
+      "creator": "6706356f4001217dbc10396a",
+      "creatorName": "S-GLM-PTH2-V1-HSBL-SPDR-177",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.99909632177985
+    },
+    {
+      "_id": "67063570600d155664663b29",
+      "creator": "6706356f4001217dbc103997",
+      "creatorName": "S-GLM-PTH3-V1-HLBL-GLM-188",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.98933747017524
+    },
+    {
+      "_id": "67063570600d155664663b2b",
+      "creator": "6706356f4001217dbc103999",
+      "creatorName": "S-GLM-PTH3-V1-HLBL-SPDR-189",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.97313027679933
+    },
+    {
+      "_id": "67063570600d155664663b39",
+      "creator": "6706356f4001217dbc1039a0",
+      "creatorName": "S-GLM-PTH3-V1-HLBL-RBMB-191",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.95580629671295
+    },
+    {
+      "_id": "67063570600d155664663998",
+      "creator": "6706356f4001217dbc1038a7",
+      "creatorName": "S-TRT-PTH2-V1-HSBL-RBMB-107",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.94630167881994
+    },
+    {
+      "_id": "67063570600d155664663b86",
+      "creator": "6706356f4001217dbc1039cc",
+      "creatorName": "S-GLM-PTH4-V1-HLBL-GLM-206",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.93942722620451
+    },
+    {
+      "_id": "67063570600d155664663ae1",
+      "creator": "6706356f4001217dbc103964",
+      "creatorName": "S-GLM-PTH2-V1-HLBL-RBMB-173",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.89476090428622
+    },
+    {
+      "_id": "67063570600d155664663d01",
+      "creator": "6706356f4001217dbc103b56",
+      "creatorName": "S-SPDR-PTH4-V1-HSBL-GLM-284",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.85501155243346
+    },
+    {
+      "_id": "67063570600d15566466399c",
+      "creator": "6706356f4001217dbc1038aa",
+      "creatorName": "S-TRT-PTH3-V1-FRBL-RBS-108",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.85153930086113
+    },
+    {
+      "_id": "67063570600d155664663b73",
+      "creator": "6706356f4001217dbc1039c4",
+      "creatorName": "S-GLM-PTH4-V1-FRBL-TWR-202",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.84691775611268
+    },
+    {
+      "_id": "67063570600d155664663c70",
+      "creator": "6706356f4001217dbc103aab",
+      "creatorName": "S-SPDR-PTH3-V1-FRBL-TRT-253",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.84163528207242
+    },
+    {
+      "_id": "67063570600d155664663d23",
+      "creator": "6706356f4001217dbc103b83",
+      "creatorName": "S-TWR-PTH1-V1-FRBL-RBMB-293",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.84032715269012
+    },
+    {
+      "_id": "67063570600d15566466397e",
+      "creator": "6706356f4001217dbc103898",
+      "creatorName": "S-TRT-PTH2-V1-HSBL-RBS-102",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.80938926605731
+    },
+    {
+      "_id": "67063570600d155664663a78",
+      "creator": "6706356f4001217dbc103924",
+      "creatorName": "S-GLM-PTH1-V1-HLBL-TRT-151",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.79221866325304
+    },
+    {
+      "_id": "67063570600d155664663ae5",
+      "creator": "6706356f4001217dbc103965",
+      "creatorName": "S-GLM-PTH2-V1-HSBL-RBS-174",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.78632669640361
+    },
+    {
+      "_id": "67063570600d155664663ae9",
+      "creator": "6706356f4001217dbc103966",
+      "creatorName": "S-GLM-PTH2-V1-HSBL-TRT-175",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.7575821610279
+    },
+    {
+      "_id": "67063570600d155664663a0a",
+      "creator": "6706356f4001217dbc1038ee",
+      "creatorName": "S-TRT-PTH4-V1-FRBL-RBMB-131",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.75026687257151
+    },
+    {
+      "_id": "67063570600d155664663c92",
+      "creator": "6706356f4001217dbc103ad3",
+      "creatorName": "S-SPDR-PTH3-V1-HLBL-GLM-260",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.7292484475557
+    },
+    {
+      "_id": "67063570600d155664663b8a",
+      "creator": "6706356f4001217dbc1039ce",
+      "creatorName": "S-GLM-PTH4-V1-HLBL-SPDR-207",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.7001715485966
+    },
+    {
+      "_id": "67063570600d155664663baf",
+      "creator": "6706356f4001217dbc1039dd",
+      "creatorName": "S-GLM-PTH4-V1-HSBL-SPDR-213",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.69116979536584
+    },
+    {
+      "_id": "67063570600d155664663bb3",
+      "creator": "6706356f4001217dbc1039df",
+      "creatorName": "S-GLM-PTH4-V1-HSBL-TWR-214",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.67639354743152
+    },
+    {
+      "_id": "67063570600d15566466398f",
+      "creator": "6706356f4001217dbc10389f",
+      "creatorName": "S-TRT-PTH2-V1-HSBL-SPDR-105",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.65058942649749
+    },
+    {
+      "_id": "67069077600d155664d32cb2",
+      "creator": "670690754001217dbc410419",
+      "creatorName": "S-RBMB-PTH4-V1-FRBL-TWR-418",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.64656453002418
+    },
+    {
+      "_id": "67069077600d155664d32b0a",
+      "creator": "670690754001217dbc410090",
+      "creatorName": "S-TWR-PTH2-V1-FRBL-RBMB-311",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.63728812372956
+    },
+    {
+      "_id": "67069077600d155664d32b59",
+      "creator": "670690754001217dbc410121",
+      "creatorName": "S-TWR-PTH3-V1-FRBL-RBMB-329",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.63199685320682
+    },
+    {
+      "_id": "67063570600d155664663a45",
+      "creator": "6706356f4001217dbc103907",
+      "creatorName": "S-TRT-PTH4-V1-HSBL-SPDR-141",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.55561810768594
+    },
+    {
+      "_id": "67063570600d155664663b41",
+      "creator": "6706356f4001217dbc1039ab",
+      "creatorName": "S-GLM-PTH3-V1-HSBL-TRT-193",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.55323739940103
+    },
+    {
+      "_id": "67063570600d155664663bf0",
+      "creator": "6706356f4001217dbc103a22",
+      "creatorName": "S-SPDR-PTH1-V1-HLBL-RBMB-227",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.53792996588062
+    },
+    {
+      "_id": "67063570600d155664663be7",
+      "creator": "6706356f4001217dbc103a16",
+      "creatorName": "S-SPDR-PTH1-V1-HLBL-GLM-224",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.53430611560448
+    },
+    {
+      "_id": "67063570600d155664663b34",
+      "creator": "6706356f4001217dbc10399e",
+      "creatorName": "S-GLM-PTH3-V1-HLBL-TWR-190",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.52304230219411
+    },
+    {
+      "_id": "67063570600d155664663b3d",
+      "creator": "6706356f4001217dbc1039a3",
+      "creatorName": "S-GLM-PTH3-V1-HSBL-RBS-192",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.51463953658882
+    },
+    {
+      "_id": "67063570600d1556646639e2",
+      "creator": "6706356f4001217dbc1038d6",
+      "creatorName": "S-TRT-PTH3-V1-HSBL-GLM-122",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.477638220573
+    },
+    {
+      "_id": "67063570600d155664663a84",
+      "creator": "6706356f4001217dbc10392b",
+      "creatorName": "S-GLM-PTH1-V1-HLBL-TWR-154",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.47406071806367
+    },
+    {
+      "_id": "67063570600d155664663c39",
+      "creator": "6706356f4001217dbc103a6a",
+      "creatorName": "S-SPDR-PTH2-V1-HLBL-TRT-241",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.45896630942523
+    },
+    {
+      "_id": "67063570600d155664663a08",
+      "creator": "6706356f4001217dbc1038eb",
+      "creatorName": "S-TRT-PTH4-V1-FRBL-TWR-130",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.45339113855929
+    },
+    {
+      "_id": "67063570600d155664663a47",
+      "creator": "6706356f4001217dbc10390a",
+      "creatorName": "S-TRT-PTH4-V1-HSBL-TWR-142",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.40633627722963
+    },
+    {
+      "_id": "67063570600d155664663a74",
+      "creator": "6706356f4001217dbc103922",
+      "creatorName": "S-GLM-PTH1-V1-HLBL-RBS-150",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.39750075281044
+    },
+    {
+      "_id": "67063570600d1556646639cd",
+      "creator": "6706356f4001217dbc1038c4",
+      "creatorName": "S-TRT-PTH3-V1-HLBL-TWR-118",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.39495593581968
+    },
+    {
+      "_id": "67063570600d1556646639d9",
+      "creator": "6706356f4001217dbc1038cd",
+      "creatorName": "S-TRT-PTH3-V1-HSBL-RBS-120",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.38115276788445
+    },
+    {
+      "_id": "67063570600d1556646639f4",
+      "creator": "6706356f4001217dbc1038e0",
+      "creatorName": "S-TRT-PTH4-V1-FRBL-RBS-126",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.36916753346518
+    },
+    {
+      "_id": "67063570600d155664663c9f",
+      "creator": "6706356f4001217dbc103ae5",
+      "creatorName": "S-SPDR-PTH3-V1-HLBL-RBMB-263",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.36792034952596
+    },
+    {
+      "_id": "67069077600d155664d32b38",
+      "creator": "670690754001217dbc4100dd",
+      "creatorName": "S-TWR-PTH2-V1-HSBL-GLM-320",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.35295839939786
+    },
+    {
+      "_id": "67063570600d155664663dce",
+      "creator": "6706356f4001217dbc103c35",
+      "creatorName": "S-RBS-PTH4-V1-HLBL-GLM-62",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.34551631533211
+    },
+    {
+      "_id": "67063570600d155664663b0b",
+      "creator": "6706356f4001217dbc103977",
+      "creatorName": "S-GLM-PTH3-V1-FRBL-GLM-182",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.32595656524842
+    },
+    {
+      "_id": "67063570600d155664663ba4",
+      "creator": "6706356f4001217dbc1039d9",
+      "creatorName": "S-GLM-PTH4-V1-HSBL-TRT-211",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.30416074944449
+    },
+    {
+      "_id": "67060cba600d1556644a5a9b",
+      "creator": "67060cba4001217dbcb954c7",
+      "creatorName": "S-RBS-PTH3-V1-HLBL-TRT-43",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.29565991997715
+    },
+    {
+      "_id": "67063570600d155664663bfb",
+      "creator": "6706356f4001217dbc103a2a",
+      "creatorName": "S-SPDR-PTH1-V1-HSBL-TRT-229",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.21307289516943
+    },
+    {
+      "_id": "67060cba600d1556644a5a5a",
+      "creator": "67060cba4001217dbcb95476",
+      "creatorName": "S-RBS-PTH2-V1-HLBL-TRT-25",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.2100129786722
+    },
+    {
+      "_id": "67069077600d155664d32af5",
+      "creator": "670690754001217dbc41005e",
+      "creatorName": "S-TWR-PTH1-V1-HSBL-RBMB-305",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.19790908746842
+    },
+    {
+      "_id": "67069077600d155664d32c23",
+      "creator": "670690754001217dbc41031d",
+      "creatorName": "S-RBMB-PTH2-V1-FRBL-RBS-378",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.18247718915309
+    },
+    {
+      "_id": "67060cba600d1556644a5a7a",
+      "creator": "67060cba4001217dbcb954a3",
+      "creatorName": "S-RBS-PTH2-V1-HSBL-TWR-34",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.17732907042846
+    },
+    {
+      "_id": "67063570600d155664663d10",
+      "creator": "6706356f4001217dbc103b70",
+      "creatorName": "S-TWR-PTH1-V1-FRBL-TRT-289",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.15676692627287
+    },
+    {
+      "_id": "67069077600d155664d32bb5",
+      "creator": "670690754001217dbc410218",
+      "creatorName": "S-TWR-PTH4-V1-HLBL-GLM-350",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.15147163300349
+    },
+    {
+      "_id": "67069077600d155664d32bf2",
+      "creator": "670690754001217dbc4102bc",
+      "creatorName": "S-RBMB-PTH1-V1-FRBL-RBMB-365",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.10205443820576
+    },
+    {
+      "_id": "67063570600d155664663b7b",
+      "creator": "6706356f4001217dbc1039c8",
+      "creatorName": "S-GLM-PTH4-V1-HLBL-RBS-204",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.0719308397542
+    },
+    {
+      "_id": "67060cba600d1556644a5a46",
+      "creator": "67060cba4001217dbcb95455",
+      "creatorName": "S-RBS-PTH2-V1-FRBL-TRT-19",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.05669360168199
+    },
+    {
+      "_id": "67063570600d155664663e0c",
+      "creator": "6706356f4001217dbc103c8e",
+      "creatorName": "S-TRT-PTH1-V1-HLBL-RBS-78",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.03973872557774
+    },
+    {
+      "_id": "67063570600d1556646639ef",
+      "creator": "6706356f4001217dbc1038df",
+      "creatorName": "S-TRT-PTH3-V1-HSBL-RBMB-125",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.03681119891086
+    },
+    {
+      "_id": "67063570600d1556646639e7",
+      "creator": "6706356f4001217dbc1038d9",
+      "creatorName": "S-TRT-PTH3-V1-HSBL-SPDR-123",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.02461083413643
+    },
+    {
+      "_id": "67063570600d155664663a25",
+      "creator": "6706356f4001217dbc1038fb",
+      "creatorName": "S-TRT-PTH4-V1-HLBL-RBMB-137",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.02455368073503
+    },
+    {
+      "_id": "67063570600d15566466399e",
+      "creator": "6706356f4001217dbc1038ae",
+      "creatorName": "S-TRT-PTH3-V1-FRBL-TRT-109",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.01541664724025
+    },
+    {
+      "_id": "67063570600d1556646639f8",
+      "creator": "6706356f4001217dbc1038e3",
+      "creatorName": "S-TRT-PTH4-V1-FRBL-TRT-127",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.00659303320512
+    },
+    {
+      "_id": "67063570600d155664663aa3",
+      "creator": "6706356f4001217dbc10393f",
+      "creatorName": "S-GLM-PTH1-V1-HSBL-TWR-160",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 7.00364514335966
+    },
+    {
+      "_id": "67063570600d155664663afd",
+      "creator": "6706356f4001217dbc103970",
+      "creatorName": "S-GLM-PTH2-V1-HSBL-RBMB-179",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.98009594730167
+    },
+    {
+      "_id": "67063570600d155664663def",
+      "creator": "6706356f4001217dbc103c61",
+      "creatorName": "S-RBS-PTH4-V1-HSBL-TWR-70",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.93664489308899
+    },
+    {
+      "_id": "67063570600d155664663b90",
+      "creator": "6706356f4001217dbc1039d0",
+      "creatorName": "S-GLM-PTH4-V1-HLBL-TWR-208",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.91786915878447
+    },
+    {
+      "_id": "67063570600d155664663e35",
+      "creator": "6706356f4001217dbc103cc5",
+      "creatorName": "S-TRT-PTH1-V1-HSBL-SPDR-87",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.85998876761488
+    },
+    {
+      "_id": "67063570600d155664663a88",
+      "creator": "6706356f4001217dbc10392e",
+      "creatorName": "S-GLM-PTH1-V1-HLBL-RBMB-155",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.84883269773023
+    },
+    {
+      "_id": "67069077600d155664d32b56",
+      "creator": "670690754001217dbc41011b",
+      "creatorName": "S-TWR-PTH3-V1-FRBL-TWR-328",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.82925324261095
+    },
+    {
+      "_id": "67063570600d155664663a6a",
+      "creator": "6706356f4001217dbc10391c",
+      "creatorName": "S-GLM-PTH1-V1-FRBL-RBMB-149",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.82506520880871
+    },
+    {
+      "_id": "67063570600d155664663e5b",
+      "creator": "6706356f4001217dbc103cf3",
+      "creatorName": "S-TRT-PTH2-V1-FRBL-RBMB-95",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.8239729372386
+    },
+    {
+      "_id": "67063570600d155664663ac9",
+      "creator": "6706356f4001217dbc103956",
+      "creatorName": "S-GLM-PTH2-V1-HLBL-TRT-169",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.80110772092413
+    },
+    {
+      "_id": "67063570600d155664663b6b",
+      "creator": "6706356f4001217dbc1039bf",
+      "creatorName": "S-GLM-PTH4-V1-FRBL-GLM-200",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.76489896167677
+    },
+    {
+      "_id": "67060cba600d1556644a5aa9",
+      "creator": "67060cba4001217dbcb954d1",
+      "creatorName": "S-RBS-PTH3-V1-HLBL-TWR-46",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.69855267288911
+    },
+    {
+      "_id": "67063570600d1556646639de",
+      "creator": "6706356f4001217dbc1038d3",
+      "creatorName": "S-TRT-PTH3-V1-HSBL-TRT-121",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.69126995576516
+    },
+    {
+      "_id": "67069077600d155664d32bcf",
+      "creator": "670690754001217dbc41025a",
+      "creatorName": "S-TWR-PTH4-V1-HSBL-GLM-356",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.69102201292578
+    },
+    {
+      "_id": "67063570600d155664663b16",
+      "creator": "6706356f4001217dbc103981",
+      "creatorName": "S-GLM-PTH3-V1-FRBL-TWR-184",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.67937430163243
+    },
+    {
+      "_id": "67060cba600d1556644a5a94",
+      "creator": "67060cba4001217dbcb954c0",
+      "creatorName": "S-RBS-PTH3-V1-FRBL-RBMB-41",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.62258957238664
+    },
+    {
+      "_id": "67060cba600d1556644a5a51",
+      "creator": "67060cba4001217dbcb95466",
+      "creatorName": "S-RBS-PTH2-V1-FRBL-RBMB-23",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.59225549915288
+    },
+    {
+      "_id": "67063570600d155664663e05",
+      "creator": "6706356f4001217dbc103c83",
+      "creatorName": "S-TRT-PTH1-V1-FRBL-TWR-76",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.56475665861462
+    },
+    {
+      "_id": "67063570600d155664663e0e",
+      "creator": "6706356f4001217dbc103c93",
+      "creatorName": "S-TRT-PTH1-V1-HLBL-TRT-79",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.54533641898541
+    },
+    {
+      "_id": "67069077600d155664d32bc4",
+      "creator": "670690754001217dbc410239",
+      "creatorName": "S-TWR-PTH4-V1-HLBL-RBMB-353",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.51641760515478
+    },
+    {
+      "_id": "67063570600d155664663bd6",
+      "creator": "6706356f4001217dbc103a03",
+      "creatorName": "S-SPDR-PTH1-V1-FRBL-TWR-220",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.4678062228153
+    },
+    {
+      "_id": "67069077600d155664d32b72",
+      "creator": "670690754001217dbc410162",
+      "creatorName": "S-TWR-PTH3-V1-HLBL-RBMB-335",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.44101528583921
+    },
+    {
+      "_id": "67063570600d155664663d2d",
+      "creator": "6706356f4001217dbc103b93",
+      "creatorName": "S-TWR-PTH1-V1-HLBL-GLM-296",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.41220333996597
+    },
+    {
+      "_id": "67063570600d155664663cfc",
+      "creator": "6706356f4001217dbc103b52",
+      "creatorName": "S-SPDR-PTH4-V1-HSBL-TRT-283",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.37568866414252
+    },
+    {
+      "_id": "67069077600d155664d32ad7",
+      "creator": "670690754001217dbc410041",
+      "creatorName": "S-TWR-PTH1-V1-HSBL-RBS-300",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.33488411289648
+    },
+    {
+      "_id": "67063570600d155664663d38",
+      "creator": "6706356f4001217dbc103ba7",
+      "creatorName": "S-TWR-PTH1-V1-HLBL-RBMB-299",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.25010070741715
+    },
+    {
+      "_id": "67063570600d155664663b77",
+      "creator": "6706356f4001217dbc1039c6",
+      "creatorName": "S-GLM-PTH4-V1-FRBL-RBMB-203",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.23867223412833
+    },
+    {
+      "_id": "67069077600d155664d32c39",
+      "creator": "670690754001217dbc410337",
+      "creatorName": "S-RBMB-PTH2-V1-FRBL-TWR-382",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.21386852847546
+    },
+    {
+      "_id": "67069077600d155664d32bf8",
+      "creator": "670690754001217dbc4102cf",
+      "creatorName": "S-RBMB-PTH1-V1-HLBL-TRT-367",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.20877935985823
+    },
+    {
+      "_id": "67069077600d155664d32b88",
+      "creator": "670690754001217dbc4101a4",
+      "creatorName": "S-TWR-PTH3-V1-HSBL-TWR-340",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.19485851466827
+    },
+    {
+      "_id": "67063570600d155664663abe",
+      "creator": "6706356f4001217dbc103951",
+      "creatorName": "S-GLM-PTH2-V1-FRBL-RBMB-167",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.16524172158869
+    },
+    {
+      "_id": "67063570600d155664663e1e",
+      "creator": "6706356f4001217dbc103cad",
+      "creatorName": "S-TRT-PTH1-V1-HLBL-TWR-82",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.14928494756869
+    },
+    {
+      "_id": "67069077600d155664d32c13",
+      "creator": "670690754001217dbc410304",
+      "creatorName": "S-RBMB-PTH1-V1-HSBL-GLM-374",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.11664320375935
+    },
+    {
+      "_id": "67063570600d155664663b45",
+      "creator": "6706356f4001217dbc1039ac",
+      "creatorName": "S-GLM-PTH3-V1-HSBL-GLM-194",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.08773711076767
+    },
+    {
+      "_id": "67063570600d155664663cba",
+      "creator": "6706356f4001217dbc103afb",
+      "creatorName": "S-SPDR-PTH3-V1-HSBL-RBMB-269",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.07765976021898
+    },
+    {
+      "_id": "67063570600d155664663cae",
+      "creator": "6706356f4001217dbc103af1",
+      "creatorName": "S-SPDR-PTH3-V1-HSBL-GLM-266",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.05515704633948
+    },
+    {
+      "_id": "67069077600d155664d32bc9",
+      "creator": "670690754001217dbc41024a",
+      "creatorName": "S-TWR-PTH4-V1-HSBL-RBS-354",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 6.0195379810602
+    },
+    {
+      "_id": "67069077600d155664d32b4c",
+      "creator": "670690754001217dbc410111",
+      "creatorName": "S-TWR-PTH3-V1-FRBL-GLM-326",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.91755707373612
+    },
+    {
+      "_id": "67063570600d155664663de3",
+      "creator": "6706356f4001217dbc103c56",
+      "creatorName": "S-RBS-PTH4-V1-HSBL-GLM-68",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.86076161390371
+    },
+    {
+      "_id": "67060cba600d1556644a5ac0",
+      "creator": "67060cba4001217dbcb954e9",
+      "creatorName": "S-RBS-PTH3-V1-HSBL-TWR-52",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.82962269962517
+    },
+    {
+      "_id": "67069077600d155664d32c09",
+      "creator": "670690754001217dbc4102e8",
+      "creatorName": "S-RBMB-PTH1-V1-HLBL-RBMB-371",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.77778919881845
+    },
+    {
+      "_id": "67063570600d155664663aa7",
+      "creator": "6706356f4001217dbc103942",
+      "creatorName": "S-GLM-PTH1-V1-HSBL-RBMB-161",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.75513755354437
+    },
+    {
+      "_id": "67069077600d155664d32ced",
+      "creator": "670690754001217dbc41046a",
+      "creatorName": "S-RBMB-PTH4-V1-HSBL-RBMB-431",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.71107644924535
+    },
+    {
+      "_id": "67069077600d155664d32b43",
+      "creator": "670690754001217dbc4100f0",
+      "creatorName": "S-TWR-PTH2-V1-HSBL-RBMB-323",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.69553341124778
+    },
+    {
+      "_id": "67063570600d155664663df2",
+      "creator": "6706356f4001217dbc103c65",
+      "creatorName": "S-RBS-PTH4-V1-HSBL-RBMB-71",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.63073904069677
+    },
+    {
+      "_id": "67069077600d155664d32bad",
+      "creator": "670690754001217dbc4101ff",
+      "creatorName": "S-TWR-PTH4-V1-HLBL-TRT-349",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.57761987028083
+    },
+    {
+      "_id": "67063570600d155664663cdd",
+      "creator": "6706356f4001217dbc103b26",
+      "creatorName": "S-SPDR-PTH4-V1-HLBL-TRT-277",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.50299756861519
+    },
+    {
+      "_id": "67063570600d15566466397a",
+      "creator": "6706356f4001217dbc103896",
+      "creatorName": "S-TRT-PTH2-V1-HLBL-RBMB-101",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.42342819342348
+    },
+    {
+      "_id": "67069077600d155664d32bfc",
+      "creator": "670690754001217dbc4102d1",
+      "creatorName": "S-RBMB-PTH1-V1-HLBL-GLM-368",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.38186731013832
+    },
+    {
+      "_id": "67063570600d155664663aee",
+      "creator": "6706356f4001217dbc103968",
+      "creatorName": "S-GLM-PTH2-V1-HSBL-GLM-176",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.35676270031377
+    },
+    {
+      "_id": "67069077600d155664d32c26",
+      "creator": "670690754001217dbc410321",
+      "creatorName": "S-RBMB-PTH2-V1-FRBL-TRT-379",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.2966860944329
+    },
+    {
+      "_id": "67060cba600d1556644a5ac2",
+      "creator": "67060cba4001217dbcb954ee",
+      "creatorName": "S-RBS-PTH3-V1-HSBL-RBMB-53",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.29101194113029
+    },
+    {
+      "_id": "67063570600d155664663d08",
+      "creator": "6706356f4001217dbc103b64",
+      "creatorName": "S-SPDR-PTH4-V1-HSBL-TWR-286",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.20818218281359
+    },
+    {
+      "_id": "67069077600d155664d32cb3",
+      "creator": "670690754001217dbc41041d",
+      "creatorName": "S-RBMB-PTH4-V1-FRBL-RBMB-419",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.1169106954173
+    },
+    {
+      "_id": "67069077600d155664d32c64",
+      "creator": "670690754001217dbc41037d",
+      "creatorName": "S-RBMB-PTH2-V1-HSBL-TWR-394",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.07043439998774
+    },
+    {
+      "_id": "67069077600d155664d32c5a",
+      "creator": "670690754001217dbc410371",
+      "creatorName": "S-RBMB-PTH2-V1-HSBL-TRT-391",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.06671686111296
+    },
+    {
+      "_id": "67063570600d155664663d18",
+      "creator": "6706356f4001217dbc103b78",
+      "creatorName": "S-TWR-PTH1-V1-FRBL-GLM-290",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.0360412930792
+    },
+    {
+      "_id": "67063570600d155664663e22",
+      "creator": "6706356f4001217dbc103cb1",
+      "creatorName": "S-TRT-PTH1-V1-HLBL-RBMB-83",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.0310800050345
+    },
+    {
+      "_id": "67063570600d155664663dde",
+      "creator": "6706356f4001217dbc103c4d",
+      "creatorName": "S-RBS-PTH4-V1-HSBL-RBS-66",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 5.00495266770717
+    },
+    {
+      "_id": "67063570600d155664663e30",
+      "creator": "6706356f4001217dbc103cc1",
+      "creatorName": "S-TRT-PTH1-V1-HSBL-GLM-86",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.99341701532685
+    },
+    {
+      "_id": "67069077600d155664d32cae",
+      "creator": "670690754001217dbc410415",
+      "creatorName": "S-RBMB-PTH4-V1-FRBL-SPDR-417",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.93796911919982
+    },
+    {
+      "_id": "67069077600d155664d32bbf",
+      "creator": "670690754001217dbc410234",
+      "creatorName": "S-TWR-PTH4-V1-HLBL-TWR-352",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.78140045574716
+    },
+    {
+      "_id": "67069077600d155664d32ae9",
+      "creator": "670690754001217dbc41004c",
+      "creatorName": "S-TWR-PTH1-V1-HSBL-GLM-302",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.76510718043914
+    },
+    {
+      "_id": "67063570600d155664663ddb",
+      "creator": "6706356f4001217dbc103c43",
+      "creatorName": "S-RBS-PTH4-V1-HLBL-RBMB-65",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.6840511262493
+    },
+    {
+      "_id": "67069077600d155664d32ce7",
+      "creator": "670690754001217dbc410467",
+      "creatorName": "S-RBMB-PTH4-V1-HSBL-TWR-430",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.60708753053922
+    },
+    {
+      "_id": "67069077600d155664d32cd2",
+      "creator": "670690754001217dbc410448",
+      "creatorName": "S-RBMB-PTH4-V1-HSBL-TRT-427",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.60453087530794
+    },
+    {
+      "_id": "67063570600d155664663e3d",
+      "creator": "6706356f4001217dbc103cd0",
+      "creatorName": "S-TRT-PTH1-V1-HSBL-RBMB-89",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.58228062420908
+    },
+    {
+      "_id": "67069077600d155664d32c8d",
+      "creator": "670690754001217dbc4103c5",
+      "creatorName": "S-RBMB-PTH3-V1-HLBL-GLM-404",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.55753676522994
+    },
+    {
+      "_id": "67069077600d155664d32c62",
+      "creator": "670690754001217dbc41037b",
+      "creatorName": "S-RBMB-PTH2-V1-HSBL-SPDR-393",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.50885084545135
+    },
+    {
+      "_id": "67069077600d155664d32ba6",
+      "creator": "670690754001217dbc4101ef",
+      "creatorName": "S-TWR-PTH4-V1-FRBL-RBMB-347",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.48786483269898
+    },
+    {
+      "_id": "67063570600d155664663d28",
+      "creator": "6706356f4001217dbc103b90",
+      "creatorName": "S-TWR-PTH1-V1-HLBL-TRT-295",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.45686736869954
+    },
+    {
+      "_id": "67063570600d155664663dfd",
+      "creator": "6706356f4001217dbc103c79",
+      "creatorName": "S-TRT-PTH1-V1-FRBL-GLM-74",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.39697775284916
+    },
+    {
+      "_id": "67069077600d155664d32af0",
+      "creator": "670690754001217dbc410058",
+      "creatorName": "S-TWR-PTH1-V1-HSBL-TWR-304",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.30978828216185
+    },
+    {
+      "_id": "67069077600d155664d32c47",
+      "creator": "670690754001217dbc41034d",
+      "creatorName": "S-RBMB-PTH2-V1-HLBL-GLM-386",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.3013505602784
+    },
+    {
+      "_id": "67069077600d155664d32c6f",
+      "creator": "670690754001217dbc410399",
+      "creatorName": "S-RBMB-PTH3-V1-FRBL-GLM-398",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.26421642920735
+    },
+    {
+      "_id": "67069077600d155664d32b78",
+      "creator": "670690754001217dbc410167",
+      "creatorName": "S-TWR-PTH3-V1-HSBL-RBS-336",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.21972581665697
+    },
+    {
+      "_id": "67069077600d155664d32c96",
+      "creator": "670690754001217dbc4103d4",
+      "creatorName": "S-RBMB-PTH3-V1-HLBL-RBMB-407",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.21969932367778
+    },
+    {
+      "_id": "67069077600d155664d32c87",
+      "creator": "670690754001217dbc4103be",
+      "creatorName": "S-RBMB-PTH3-V1-HLBL-RBS-402",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.19647343564415
+    },
+    {
+      "_id": "67069077600d155664d32c93",
+      "creator": "670690754001217dbc4103cf",
+      "creatorName": "S-RBMB-PTH3-V1-HLBL-TWR-406",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.19438862393705
+    },
+    {
+      "_id": "67069077600d155664d32cc3",
+      "creator": "670690754001217dbc41042d",
+      "creatorName": "S-RBMB-PTH4-V1-HLBL-GLM-422",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.16260503290112
+    },
+    {
+      "_id": "67069077600d155664d32c68",
+      "creator": "670690754001217dbc41038a",
+      "creatorName": "S-RBMB-PTH2-V1-HSBL-RBMB-395",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.11610883445771
+    },
+    {
+      "_id": "67063570600d155664663cf3",
+      "creator": "6706356f4001217dbc103b48",
+      "creatorName": "S-SPDR-PTH4-V1-HLBL-RBMB-281",
+      "submitDate": "2024-10-10T00:32:51.351Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 4.02583617871265
+    },
+    {
+      "_id": "67069077600d155664d32ca0",
+      "creator": "670690754001217dbc4103ea",
+      "creatorName": "S-RBMB-PTH3-V1-HSBL-GLM-410",
+      "submitDate": "2024-10-10T00:32:51.352Z",
+      "submittedCodeLanguage": "javascript",
+      "team": "humans",
+      "totalScore": 3.9536982996414
+    }
+  ]

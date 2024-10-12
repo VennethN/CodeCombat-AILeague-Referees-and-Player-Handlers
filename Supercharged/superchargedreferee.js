@@ -71,7 +71,7 @@ const TEMP_COST_TO_SCALE = 2;
 const DROP_DISTANCE_SQ = 9;
 const PICK_DISTANCE_SQ = 4;
 const COLLECTOR_LIFE = 20;
-const COLLECTOR_TAKE_DAMAGE = 5;
+const COLLECTOR_TAKE_DAMAGE = 6;
 
 const START_MANA = 1;
 
@@ -89,6 +89,8 @@ const HASTEBALL = "hasteball"
 
 const KNIGHT = 'knight';
 const ARCHER = 'archer';
+
+const MAX_UNITS = 10;
 
 const ENERGY_REGEN = 0.1;
 const MANA_REGEN = 0.1;
@@ -189,7 +191,7 @@ const UNITS = {
     },
     [ROBOT_TURRET]:{
         type: ROBOT_TURRET,
-        maxHealth: 30,
+        maxHealth: 50,
         attackDamage: 15,
         maxSpeed: 7,
         cost: 8,
@@ -203,8 +205,8 @@ const UNITS = {
     },
     [ROBOT_SPIDER]:{
         type: ROBOT_SPIDER,
-        maxHealth: 110,
-        attackDamage: 35,
+        maxHealth: 55,
+        attackDamage: 40,
         maxSpeed: 10,
         cost: 7,
         attackCooldown: 1,
@@ -217,11 +219,11 @@ const UNITS = {
     },
     [ROBOT_GOLEM]:{
         type: ROBOT_GOLEM,
-        maxHealth: 400,
-        attackDamage: 25,
+        maxHealth: 340,
+        attackDamage: 40,
         maxSpeed: 4,
-        cost: 15,
-        attackCooldown: 2,
+        cost: 14,
+        attackCooldown: 1.8,
         canTargetCollectors: false,
         spawnTime: 3,
         attackRange: 2,
@@ -230,7 +232,7 @@ const UNITS = {
     },
     [ROBOBOMB]:{
         type: ROBOBOMB,
-        maxHealth: 55,
+        maxHealth: 80,
         attackDamage: 100,
         maxSpeed: 10,
         cost: 8,
@@ -244,8 +246,8 @@ const UNITS = {
     },
     [ROBOT_TOWER]:{
         type: ROBOT_TOWER,
-        maxHealth: 140,
-        attackDamage: 30,
+        maxHealth: 150,
+        attackDamage: 40,
         maxSpeed: 6,
         cost: 12,
         attackCooldown: 1,
@@ -314,7 +316,7 @@ const SPELLS = {
         cooldown: 3,
         castTime: .1,
         blastRadius: 6,
-        heal: 25,
+        heal: 40,
         flightTime: 1,
     },
     [HASTEBALL]: {
@@ -322,7 +324,7 @@ const SPELLS = {
         cost: 4,
         cooldown: 3,
         castTime: .1,
-        blastRadius: 8,
+        blastRadius: 10,
         factor: 2,
         flightTime: 1,
         duration: 2,
@@ -1419,6 +1421,9 @@ const SPELLS = {
             throw new Error(`${unitType} is not a summonable unit`);
         }
         if (unitData.cost > h.mana_[ENERGY]) {
+            return;
+        }
+        if (h.units_.length >= MAX_UNITS) {
             return;
         }
         h.mana_[ENERGY] -= unitData.cost;
