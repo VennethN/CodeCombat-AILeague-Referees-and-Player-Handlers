@@ -56,7 +56,7 @@ const SUDDEN_DEATH_HP_PER_SECOND = HERO_HEALTH / (180 - SUDDEN_DEATH_START);
 const SUDDEN_DEATH_UNIT_HP_PER_SECOND = 200 / (180 - SUDDEN_DEATH_START);
 
 const MAX_COLLECTORS = 4;
-const SPAWN_COOLDOWNS = [1, 3, 9, 18, 27, 36, 45, 54, 60];
+const SPAWN_COOLDOWNS = [3, 5, 12, 20, 27, 36, 45, 54, 60];
 const SPAWN_POINTS = {
     [RED]: Vector(15, 50),
     [BLUE]: Vector(105, 50)
@@ -246,7 +246,7 @@ const UNITS = {
     },
     [ROBOT_TOWER]:{
         type: ROBOT_TOWER,
-        maxHealth: 130,
+        maxHealth: 120,
         attackDamage: 40,
         maxSpeed: 6,
         cost: 12,
@@ -302,7 +302,7 @@ const UNITS = {
 const SPELLS = {
     [FIREBALL]: {
         name: FIREBALL,
-        cost: 2,
+        cost: 3,
         cooldown: 3,
         castTime: .1,
         blastRadius: 8,
@@ -321,7 +321,7 @@ const SPELLS = {
     },
     [HASTEBALL]: {
         name: HASTEBALL,
-        cost: 4,
+        cost: 3,
         cooldown: 3,
         castTime: .1,
         blastRadius: 10,
