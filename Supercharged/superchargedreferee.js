@@ -219,8 +219,8 @@ const UNITS = {
     },
     [ROBOT_GOLEM]:{
         type: ROBOT_GOLEM,
-        maxHealth: 300,
-        attackDamage: 35,
+        maxHealth: 360,
+        attackDamage: 30,
         maxSpeed: 4,
         cost: 14,
         attackCooldown: 1.8,
@@ -232,8 +232,8 @@ const UNITS = {
     },
     [ROBOBOMB]:{
         type: ROBOBOMB,
-        maxHealth: 80,
-        attackDamage: 100,
+        maxHealth: 70,
+        attackDamage: 150,
         maxSpeed: 10.5,
         cost: 9,
         visionRange:15,
@@ -241,14 +241,14 @@ const UNITS = {
         canTargetCollectors: false,
         spawnTime: 1,
         attackRange: 1,
-        blastRadius: 5,
+        blastRadius: 7,
         summonable: true,
     },
     [ROBOT_TOWER]:{
         type: ROBOT_TOWER,
-        maxHealth: 140,
+        maxHealth: 160,
         attackDamage: 40,
-        maxSpeed: 6.2,
+        maxSpeed: 5.9,
         cost: 12,
         attackCooldown: 1,
         canTargetCollectors: true,
@@ -349,8 +349,8 @@ const SPELLS = {
         this.chips = [];
         this.chipsToRegrow = [];          
         this.fruitCounter = 0;
-        this.printUnitStats();
-        this.printSpellStats();
+        //this.printUnitStats();
+        //this.printSpellStats();
         this.setupHeroes();
         this.buildNewGrid();
         this.initLetters();
