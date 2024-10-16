@@ -233,7 +233,7 @@ const UNITS = {
     [ROBOBOMB]:{
         type: ROBOBOMB,
         maxHealth: 70,
-        attackDamage: 150,
+        attackDamage: 120,
         maxSpeed: 10.5,
         cost: 9,
         visionRange:15,
