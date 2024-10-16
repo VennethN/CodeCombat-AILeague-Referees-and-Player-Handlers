@@ -28,7 +28,7 @@ function collectorHandler(data) {
 }
 
 function fireballHandler() {
-    if(hero.mana < 2){
+    if(hero.mana < 3){
         return;}
     var currentUnits = hero.findEnemyUnits()
     if(currentUnits.length === 0){
@@ -86,7 +86,7 @@ function healHandler() {
 }
 
 function hasteHandler() {
-    if(hero.mana < 4){
+    if(hero.mana < 3){
         return;}
     var currentUnits = hero.findMyUnits()
     if(currentUnits.length === 0){
