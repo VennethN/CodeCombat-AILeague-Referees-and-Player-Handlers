@@ -7,6 +7,11 @@ var unitChoice2 = <%= varUnitChoice2 %>;
 
 var unitPath = <%= varUnitPath %>;
 
+if (unitChoice2 == "")
+{
+    unitChoice2 = unitChoice;
+}
+
 function collectorHandler(data) {
     var collector = data.collector;
     while(true)

@@ -191,9 +191,9 @@ const UNITS = {
     },
     [ROBOT_TURRET]:{
         type: ROBOT_TURRET,
-        maxHealth: 60,
-        attackDamage: 18,
-        maxSpeed: 7.5,
+        maxHealth: 50,
+        attackDamage: 15,
+        maxSpeed: 7,
         cost: 6,
         attackCooldown: 1,
         spawnTime: .3,
@@ -219,7 +219,7 @@ const UNITS = {
     },
     [ROBOT_GOLEM]:{
         type: ROBOT_GOLEM,
-        maxHealth: 270,
+        maxHealth: 300,
         attackDamage: 35,
         maxSpeed: 4,
         cost: 14,
@@ -234,7 +234,7 @@ const UNITS = {
         type: ROBOBOMB,
         maxHealth: 80,
         attackDamage: 100,
-        maxSpeed: 10,
+        maxSpeed: 10.5,
         cost: 9,
         visionRange:15,
         attackCooldown: 4,
@@ -327,7 +327,7 @@ const SPELLS = {
         blastRadius: 10,
         factor: 2,
         flightTime: 1,
-        duration: 2,
+        duration: 3,
     },
 };
 
